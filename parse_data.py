@@ -6,12 +6,30 @@ CSV_FILE = "jobs.csv"
 JSON_FILE = "metadata.json"
 OUTPUT_FILE = "README.md"
 
-HEADER = """# 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
+OPEN_COLOR = "2cb5e2"
+CLOSED_COLOR = "e22c5a"
+STYLE = "flat"
+APPLY_IMAGE_OPEN = f"https://img.shields.io/badge/Apply-{OPEN_COLOR}?style={STYLE}"
+APPLY_IMAGE_CLOSED = f"https://img.shields.io/badge/Closed-{CLOSED_COLOR}?style={STYLE}"
+
+IEEE_BADGE = "https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link=https://sites.coecis.cornell.edu/ieee/"
+
+def count_total_listings(csv_file):
+    with open(csv_file, "r") as file:
+        return sum(1 for _ in csv.DictReader(file))
+
+def generate_header():
+    total_jobs = count_total_listings(CSV_FILE)
+    listings_badge = f"https://img.shields.io/badge/Total%20Listings-{total_jobs}-blue?style=flat"
+    return f"""# 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
 
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
 
-This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please open a pull request!
+This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please see [how to contribute](CONTRIBUTING.md)!
+
+![Total Listings]({listings_badge})
+![IEEE at Cornell]({IEEE_BADGE})
 
 ---
 
@@ -48,7 +66,7 @@ def format_date(date_str):
 
 # Generate Markdown tables
 def generate_markdown(jobs_by_category, metadata):
-    markdown_output = [HEADER]
+    markdown_output = [generate_header()]
 
     for category, jobs in jobs_by_category.items():
         if category not in metadata["categories"]:
@@ -73,7 +91,11 @@ def generate_markdown(jobs_by_category, metadata):
             else:
                 company_link = "#"
                 print(f"Warning: Company '{company}' not found in metadata. Please add it to metadata.json.")
-            markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | [Apply]({app_link}) | {date_posted} | {open_status} |\n")
+
+            # Apply Button with Image
+            apply_button = f"[![Apply]({APPLY_IMAGE_OPEN})]({app_link})" if job["Open"].lower() == "true" else f"[![Closed]({APPLY_IMAGE_CLOSED})]({app_link})"
+
+            markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | {apply_button} | {date_posted} | {open_status} |\n")
 
         markdown_output.append("\n")
 
