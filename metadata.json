@@ -1,0 +1,9 @@
+{
+  "categories": ["FPGA", "AI", "Semiconductors", "Trading"],
+  "companies": {
+    "Jane Street": "https://www.janestreet.com/",
+    "Nvidia": "https://www.nvidia.com/",
+    "AMD": "https://www.amd.com/",
+    "Intel": "https://www.intel.com/"
+  }
+}
