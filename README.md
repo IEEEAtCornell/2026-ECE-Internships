@@ -3,10 +3,17 @@
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
 
-This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please see [how to contribute](CONTRIBUTING.md)!
+This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please open a pull request!
 
 ![Total Listings](https://img.shields.io/badge/Total%20Listings-7-blue?style=flat)
-![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link=https://sites.coecis.cornell.edu/ieee/)
+[![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
+
+## Categories
+
+- [AI](#ai)
+- [FPGA](#fpga)
+- [Semiconductors](#semiconductors)
+- [Trading](#trading)
 
 ---
 
@@ -36,7 +43,6 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 |---------|------|----------|------------------|-------------|------|
 | [Jane Street](https://www.janestreet.com/) | Quantitative Trader Intern | NY | [![Closed](https://img.shields.io/badge/Closed-e22c5a?style=flat)](https://www.janestreet.com/quant-trader-internship) | Feb 03 2025 | ❌ |
 | [Citadel](#) | Summer Trading Intern | IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.citadel.com/careers/summer-trading-intern) | Feb 02 2025 | ✅ |
-
 
 ---
 _Last updated on `Feb 01, 2025`. Please verify application deadlines and availability with company websites._
