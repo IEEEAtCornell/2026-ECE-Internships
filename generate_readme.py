@@ -1,5 +1,6 @@
 import csv
 import json
+import sys
 from datetime import datetime
 
 CSV_FILE = "jobs.csv"
@@ -17,6 +18,8 @@ APPLY_IMAGE_CLOSED = f"https://img.shields.io/badge/Closed-{CLOSED_COLOR}?style=
 
 # IEEE at Cornell Badge
 IEEE_BADGE = "https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link"
+
+error = False
 
 # Function to count total job listings
 def count_total_listings(csv_file):
@@ -80,16 +83,20 @@ def format_date(date_str):
 
 # Generate Markdown Tables
 def generate_markdown(jobs_by_category, metadata):
+
+    global error
+
     markdown_output = [HEADER + "\n"]
 
     for category, jobs in jobs_by_category.items():
         if category not in metadata["categories"]:
             print(f"Warning: Category '{category}' not found in metadata. Skipping.")
+            error = True
             continue
 
         markdown_output.append(f"## {category}\n\n")
-        markdown_output.append("| Company | Role | Location | Application Link | Date Posted | Open |\n")
-        markdown_output.append("|---------|------|----------|------------------|-------------|------|\n")
+        markdown_output.append("| Company | Role | Location | Application Link | Date Posted |\n")
+        markdown_output.append("|---------|------|----------|------------------|-------------|\n")
 
         for job in jobs:
             company = job["Company"]
@@ -97,7 +104,6 @@ def generate_markdown(jobs_by_category, metadata):
             location = job["Location"]
             app_link = job["Application Link"]
             date_posted = job["Date Posted"]
-            open_status = "✅" if job["Open"].lower() == "true" else "❌"
 
             # Verify company URL from metadata
             if company in metadata["companies"]:
@@ -106,10 +112,12 @@ def generate_markdown(jobs_by_category, metadata):
                 company_link = "#"
                 print(f"Warning: Company '{company}' not found in metadata. Please add it to metadata.json.")
 
+                error = True
+
             # Apply Button with Image
             apply_button = f"[![Apply]({APPLY_IMAGE_OPEN})]({app_link})" if job["Open"].lower() == "true" else f"[![Closed]({APPLY_IMAGE_CLOSED})]({app_link})"
 
-            markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | {apply_button} | {date_posted} | {open_status} |\n")
+            markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | {apply_button} | {date_posted} |\n")
 
         markdown_output.append("\n")
 
@@ -118,15 +126,16 @@ def generate_markdown(jobs_by_category, metadata):
     return "".join(markdown_output)
 
 def main():
+
     total_jobs = count_total_listings(CSV_FILE)
-    
+
     # Load metadata and jobs
     metadata = load_metadata(JSON_FILE)
     jobs_by_category = parse_csv(CSV_FILE)
-    
+
     # Extract category names for ToC
     categories = sorted(jobs_by_category.keys())
-    
+
     # Update HEADER dynamically
     global HEADER
     HEADER = generate_header(total_jobs, categories)
@@ -136,7 +145,11 @@ def main():
     with open(OUTPUT_FILE, "w") as file:
         file.write(markdown_content)
 
+    if error:
+        sys.exit(1)
+
     print(f"Markdown file '{OUTPUT_FILE}' generated successfully with {total_jobs} listings!")
+
 
 if __name__ == "__main__":
     main()
