@@ -1,4 +1,4 @@
-# 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
+# 2025 - 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
 
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
