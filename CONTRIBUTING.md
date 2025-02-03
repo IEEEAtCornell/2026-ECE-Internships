@@ -41,4 +41,14 @@ Thank you for your interest in contributing to this project! Please follow the g
 - **Invalid Links:** Verify that company URLs and application links are correct.
 - **Job Status:** Ensure the `Open` field is either `true` (✅) or `false` (❌).
 
+## Tips
+
+Add the following [Git pre-commit hook](https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks) to automate generating the README.
+
+```sh
+#!/bin/sh
+python3 generate_readme.py
+git add README.md
+```
+
 Happy contributing! 🚀
