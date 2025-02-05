@@ -14,7 +14,7 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 - [FPGA](#fpga)
 - [Semiconductors](#semiconductors)
 - [Trading](#trading)
-- [Embedded Systems](#Embedded Systems)
+- [Embedded Systems](#Embedded_Systems)
 
 
 ---
