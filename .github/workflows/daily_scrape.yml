@@ -1,0 +1,31 @@
+name: Daily Job Scraper
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # Runs every day at 12:00 UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  scrape_jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"  # Adjust as needed
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run job scraper
+        run: |
+          source venv/bin/activate
+          python scrape.py
+
