@@ -1,6 +1,1 @@
-import smtplib
-from email.mime.text import MIMEText
-import schedule
-import time
-
-def sendEmail(recipient, sender, subject, message)
+# tatorial: https://medium.com/geekculture/how-to-create-an-automated-newsletter-for-free-7522c5646b50
