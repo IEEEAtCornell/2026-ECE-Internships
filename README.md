@@ -3,10 +3,14 @@
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
 
-This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please open a pull request!
+This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). 
+
+**For updates or corrections, please open a pull request!**
 
 ![Total Listings](https://img.shields.io/badge/Total%20Listings-7-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
+
+
 
 ## Categories
 
