@@ -50,6 +50,7 @@ Current Cornell IEEE Maintenance Team:
 - [Peter He](https://peterhe.dev/)
 - [Dalton Luce](https://www.daltonluce.com/)
 
+**Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
 ![Total Listings]({listings_badge})
 [![IEEE at Cornell]({IEEE_BADGE})]({IEEE_URL})
