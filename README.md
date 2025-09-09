@@ -7,11 +7,12 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 
 **For updates or corrections, please open a pull request!**
 
-**Current Cornell IEEE Maintenance Team:**
+Current Cornell IEEE Maintenance Team:
 - [Peter He](https://peterhe.dev/)
 - [Dalton Luce](https://www.daltonluce.com/)
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-184-blue?style=flat)
+
+![Total Listings](https://img.shields.io/badge/Total%20Listings-176-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -22,53 +23,13 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 - [Embedded Systems](#embedded-systems)
 - [FPGA](#fpga)
 - [Semiconductors](#semiconductors)
-- [Trading](#trading)
 
 ---
-
-## FPGA
-
-| Company | Role | Location | Application Link | Date Posted |
-|---------|------|----------|------------------|-------------|
-| [Jane Street](https://www.janestreet.com/careers/) | FPGA Engineer – Summer 2025 Internship | NY | [![Closed](https://img.shields.io/badge/Closed-e22c5a?style=flat)](https://jobs.anitab.org/companies/jane-street-2/jobs/39912379-fpga-engineer-summer-2025-internship) | Feb 01 2025 |
-| [Intel](https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html) | FPGA Design Engineer Intern | OR | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.intel.com/jobs/fpga-intern) | Jan 10 2025 |
-| [General Dynamics Mission Systems](https://www.gd-ms.com/careers) | ASIC FPGA Engineer – Intern Conversion | Scottsdale, AZ, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=16574aac31020957) | Sep 08 2025 |
-| [Seagate Technology](https://www.seagate.com/jobs/) | FPGA System Developer Intern | Shakopee, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=8c966b97ab9327e0) | Sep 08 2025 |
-| [ursa major](https://www.ursamajor.com/careers) | Summer 2026 Electrical Engineering Intern | Berthoud, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2fb2954b4d1f10fe) | Sep 08 2025 |
-| [ABB](https://global.abb/group/en/careers) | Power Electronics Intern - Spring 2026 | Raleigh, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=428ad86428510d0a) | Sep 08 2025 |
-| [MKS Instruments](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op | Rochester, NY, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ca685fcb0e4c8520) | Sep 08 2025 |
-| [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/careers) | 2026 Internship - Advanced Sensor Technologies | Laurel, MD, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=19ae705aeddc0497) | Sep 08 2025 |
-| [Nordson](https://www.nordson.com/en/careers) | Intern (Firmware) | Minneapolis, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e98cd045cb93d712) | Sep 07 2025 |
-| [MKS Inc.](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295596310) | Sep 08 2025 |
-| [Keysight Technologies](https://www.keysight.com/us/en/careers.html) | R&D HW Engineer Intern | Santa Rosa, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4294723457) | Sep 08 2025 |
-| [Lightmatter](https://lightmatter.co/careers) | Hardware Engineering Internships | Mountain View, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297890627) | Sep 09 2025 |
-| [Seagate Technology](https://www.seagate.com/jobs/) | FPGA System Developer Intern | Shakopee, MN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295836458) | Sep 09 2025 |
-| [MKS Inc.](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op (R15015) | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297383428) | Sep 09 2025 |
-| [Plexus Corp.](https://www.plexus.com/en-us/careers) | Intern - Digital Engineer (Fall 2026) | Neenah, WI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4294186243) | Sep 09 2025 |
-| [TetraMem - Accelerate The World](https://tetramem.com/) | US 2026 Hardware - Digital Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297889874) | Sep 09 2025 |
-| [TetraMem - Accelerate The World](https://tetramem.com/) | US 2026 Hardware - Analog Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297889879) | Sep 09 2025 |
-| [Epirus](https://www.epirusinc.com/careers/) | Hardware Test Engineering Intern | Torrance, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298108086) | Sep 09 2025 |
-| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Computer Systems Validation Engineer | Orange, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4273295029) | Sep 09 2025 |
-| [Rambus](https://www.rambus.com/careers/) | Intern Digital RTL | Alameda County, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296245397) | Sep 09 2025 |
-| [Rambus](https://www.rambus.com/careers/) | Intern Digital Verification | Alameda County, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296249381) | Sep 09 2025 |
-| [Marvell Technology](https://www.marvell.com/careers.html) | Physical Design Engineer Intern - Master's Degree | Westborough, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295822624) | Sep 09 2025 |
-| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | Austin, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2d905cef3adefdd6) | Sep 04 2025 |
-| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | San Diego, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ab788889eef8f80d) | Sep 04 2025 |
-| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | Redmond, WA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=49dabb5ee4d23bd0) | Sep 04 2025 |
-| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Rockville, MD | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4169845165) | Sep 08 2025 |
-| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Pomona, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4272440766) | Sep 07 2025 |
-| [Nubit | Bitcoin Thunderbolt](https://www.nubit.org/) | Formal Verification R&D Intern | California, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298248974) | Sep 09 2025 |
-| [Allegion](https://www.allegion.com/corp/en/careers.html) | Summer Intern- System Test/Validation Engineer |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296623980) | Sep 09 2025 |
-| [NXP Semiconductors](https://www.nxp.com/company/about-nxp/careers:CAREERS) | AI/ML ASIC Design and Implementation Automation Intern - Summer 2026 | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297650717) | Sep 09 2025 |
-| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Rahway, NJ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4168787118) | Sep 09 2025 |
-| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer III | Pomona, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4273291920) | Sep 09 2025 |
 
 ## AI
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
-| [Nvidia](https://www.nvidia.com/en-us/careers/) | AI Research Intern | CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.nvidia.com/en-us/careers/ai-research-intern) | Jan 15 2025 |
-| [AMD](https://www.amd.com/en/corporate/careers.html) | Machine Learning Intern | TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.amd.com/en/careers/ml-intern) | Jan 25 2025 |
 | [Medtronic](https://www.medtronic.com/us-en/about/careers.html) | Senior Vendor Management Program Manager - IT Strategic Partnerships | Mounds View, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=afe80653dd6773c5) | Sep 09 2025 |
 | [Fujitsu](https://www.fujitsu.com/global/about/careers/) | Software Development Intern (Summer 2026) | Richardson, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=15189948b5d5651e) | Sep 09 2025 |
 | [FlexGen](https://flexgen.com/careers/) | Business Development Intern | Durham, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=5fdc0c9c2a6e3a73) | Sep 09 2025 |
@@ -111,7 +72,6 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 | [Parsons](https://www.parsons.com/careers/) | Engineering Internship Summer 2026 | Herndon, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=105c0120f3611f51) | Sep 08 2025 |
 | [Meta](https://www.metacareers.com/) | Research Scientist Intern, Advanced Display (PhD) | Redmond, WA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=a93be72f5aea2686) | Sep 07 2025 |
 | [Snowflake](https://careers.snowflake.com/) | Software Engineer Intern (AI/ML) - Spring 2026 | Menlo Park, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=4c57152cb5678169) | Sep 06 2025 |
-| [Battelle](https://www.battelle.org/careers) | Fabrication Engineer Intern (Summer 2026) | Columbus, OH, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e24a215912e3e960) | Sep 25 2019 |
 | [Bose Corporation](https://www.bose.com/en_us/careers.html) | Automotive Audio Tools Intern | Framingham, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295568708) | Sep 08 2025 |
 | [Boom Supersonic](https://boomsupersonic.com/careers) | Software Engineering Intern | Denver, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297270506) | Sep 08 2025 |
 | [Bose Corporation](https://www.bose.com/en_us/careers.html) | Pre-dev Embedded Software Intern | Framingham, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295566781) | Sep 08 2025 |
@@ -138,11 +98,45 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 | [Symbotic](https://www.symbotic.com/careers/) | Intern- Machine Learning | Wilmington, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297588070) | Sep 08 2025 |
 | [Toyota Research Institute](https://www.tri.global/careers) | Machine Learning Intern - Vision-Language-Action Pretraining | Los Altos, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297698181) | Sep 09 2025 |
 
+## FPGA
+
+| Company | Role | Location | Application Link | Date Posted |
+|---------|------|----------|------------------|-------------|
+| [General Dynamics Mission Systems](https://www.gd-ms.com/careers) | ASIC FPGA Engineer – Intern Conversion | Scottsdale, AZ, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=16574aac31020957) | Sep 08 2025 |
+| [Seagate Technology](https://www.seagate.com/jobs/) | FPGA System Developer Intern | Shakopee, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=8c966b97ab9327e0) | Sep 08 2025 |
+| [ursa major](https://www.ursamajor.com/careers) | Summer 2026 Electrical Engineering Intern | Berthoud, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2fb2954b4d1f10fe) | Sep 08 2025 |
+| [ABB](https://global.abb/group/en/careers) | Power Electronics Intern - Spring 2026 | Raleigh, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=428ad86428510d0a) | Sep 08 2025 |
+| [MKS Instruments](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op | Rochester, NY, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ca685fcb0e4c8520) | Sep 08 2025 |
+| [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/careers) | 2026 Internship - Advanced Sensor Technologies | Laurel, MD, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=19ae705aeddc0497) | Sep 08 2025 |
+| [Nordson](https://www.nordson.com/en/careers) | Intern (Firmware) | Minneapolis, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e98cd045cb93d712) | Sep 07 2025 |
+| [MKS Inc.](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295596310) | Sep 08 2025 |
+| [Keysight Technologies](https://www.keysight.com/us/en/careers.html) | R&D HW Engineer Intern | Santa Rosa, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4294723457) | Sep 08 2025 |
+| [Lightmatter](https://lightmatter.co/careers) | Hardware Engineering Internships | Mountain View, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297890627) | Sep 09 2025 |
+| [Seagate Technology](https://www.seagate.com/jobs/) | FPGA System Developer Intern | Shakopee, MN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295836458) | Sep 09 2025 |
+| [MKS Inc.](https://www.mks.com/careers) | 2026 Summer-Fall FPGA Engineering Co-op (R15015) | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297383428) | Sep 09 2025 |
+| [Plexus Corp.](https://www.plexus.com/en-us/careers) | Intern - Digital Engineer (Fall 2026) | Neenah, WI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4294186243) | Sep 09 2025 |
+| [TetraMem - Accelerate The World](https://tetramem.com/) | US 2026 Hardware - Digital Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297889874) | Sep 09 2025 |
+| [TetraMem - Accelerate The World](https://tetramem.com/) | US 2026 Hardware - Analog Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297889879) | Sep 09 2025 |
+| [Epirus](https://www.epirusinc.com/careers/) | Hardware Test Engineering Intern | Torrance, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298108086) | Sep 09 2025 |
+| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Computer Systems Validation Engineer | Orange, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4273295029) | Sep 09 2025 |
+| [Rambus](https://www.rambus.com/careers/) | Intern Digital RTL | Alameda County, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296245397) | Sep 09 2025 |
+| [Rambus](https://www.rambus.com/careers/) | Intern Digital Verification | Alameda County, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296249381) | Sep 09 2025 |
+| [Marvell Technology](https://www.marvell.com/careers.html) | Physical Design Engineer Intern - Master's Degree | Westborough, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295822624) | Sep 09 2025 |
+| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | Austin, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2d905cef3adefdd6) | Sep 04 2025 |
+| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | San Diego, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ab788889eef8f80d) | Sep 04 2025 |
+| [Amazon.com](https://www.amazon.jobs/) | ASIC Engineering Internship (Summer 2026), Project Kuiper | Redmond, WA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=49dabb5ee4d23bd0) | Sep 04 2025 |
+| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Rockville, MD | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4169845165) | Sep 08 2025 |
+| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Pomona, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4272440766) | Sep 07 2025 |
+| [Nubit | Bitcoin Thunderbolt](https://www.nubit.org/) | Formal Verification R&D Intern | California, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298248974) | Sep 09 2025 |
+| [Allegion](https://www.allegion.com/corp/en/careers.html) | Summer Intern- System Test/Validation Engineer |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296623980) | Sep 09 2025 |
+| [NXP Semiconductors](https://www.nxp.com/company/about-nxp/careers:CAREERS) | AI/ML ASIC Design and Implementation Automation Intern - Summer 2026 | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297650717) | Sep 09 2025 |
+| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer | Rahway, NJ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4168787118) | Sep 09 2025 |
+| [PSC Biotech® Corporation](https://pscbiotech.com/careers/) | Validation Engineer III | Pomona, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4273291920) | Sep 09 2025 |
+
 ## Semiconductors
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
-| [AMD](https://www.amd.com/en/corporate/careers.html) | Chip Design Intern | TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.amd.com/en/careers/chip-design-intern) | Jan 20 2025 |
 | [KLA](https://www.kla.com/careers) | Software Engineer (OOD/OOP, Linux, HPC) | Milpitas, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=dbeb8bc7b90d25a6) | Sep 09 2025 |
 | [Thermo Fisher Scientific](https://jobs.thermofisher.com/) | Software Development / Engineering Intern | Hillsboro, OR, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=5217e9b402091f4c) | Sep 08 2025 |
 | [The Ohio State University](https://hr.osu.edu/careers/) | Student Engineering Intern – Nanofabrication and Semiconductor Epitaxy Operations | Columbus, OH, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=14b0535a2f0a3959) | Sep 08 2025 |
@@ -187,13 +181,6 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 | [Qorvo, Inc.](https://www.qorvo.com/careers) | Design Engineering Intern | Greensboro, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297613673) | Sep 08 2025 |
 | [Skyworks Solutions, Inc.](https://www.skyworksinc.com/en/Careers) | RF SW IC Design Co-op (Summer/Fall 2026) | Cedar Rapids, IA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4287748310) | Sep 08 2025 |
 | [Falcomm](https://www.falcomm.com/) | Graduate RFIC Engineering Intern/Co-Op | Atlanta, GA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295255277) | Sep 07 2025 |
-
-## Trading
-
-| Company | Role | Location | Application Link | Date Posted |
-|---------|------|----------|------------------|-------------|
-| [Jane Street](https://www.janestreet.com/careers/) | Quantitative Trader Intern | NY | [![Closed](https://img.shields.io/badge/Closed-e22c5a?style=flat)](https://www.janestreet.com/quant-trader-internship) | Feb 03 2025 |
-| [Citadel](https://www.citadel.com/careers/) | Summer Trading Intern | IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.citadel.com/careers/summer-trading-intern) | Feb 02 2025 |
 
 ## Embedded Systems
 
