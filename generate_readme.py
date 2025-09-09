@@ -37,7 +37,7 @@ def generate_toc(categories):
 # Generate Markdown Header with Badges
 def generate_header(total_jobs, categories):
     listings_badge = f"https://img.shields.io/badge/Total%20Listings-{total_jobs}-blue?style=flat"
-    return f"""# Summer 2025 Electrical and Computer Engineering Internships by IEEE at Cornell
+    return f"""# Summer 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
 
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
