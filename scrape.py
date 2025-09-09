@@ -68,9 +68,29 @@ def scrape_jobs_for_categories(keyword_map):
                     return_dict=True  # FIX: Ensures the output is a list of dictionaries
                 )
                 print(f"✅ Found {len(jobs)} jobs for '{keyword}'")
-                for job in jobs:
-                    job['Category'] = category  # Tag each job with its category
-                all_jobs.extend(jobs)
+                
+                # Check if jobs is a list of dictionaries or strings
+                if jobs and isinstance(jobs[0], dict):
+                    # Jobs are already dictionaries, add category
+                    for job in jobs:
+                        job['Category'] = category  # Tag each job with its category
+                    all_jobs.extend(jobs)
+                elif jobs and isinstance(jobs[0], str):
+                    # Jobs are strings, convert to dictionaries
+                    for job_str in jobs:
+                        job_dict = {
+                            'title': job_str,
+                            'company': 'Unknown',
+                            'location': 'Unknown',
+                            'job_url': '',
+                            'date_posted': datetime.now(),
+                            'Category': category
+                        }
+                        all_jobs.append(job_dict)
+                else:
+                    # Handle empty or unexpected format
+                    print(f"⚠️  Unexpected job format for '{keyword}': {type(jobs[0]) if jobs else 'empty'}")
+                    all_jobs.extend(jobs)
             except Exception as e:
                 print(f"❌ Error scraping for '{keyword}': {e}")
     return all_jobs
