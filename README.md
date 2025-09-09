@@ -13,7 +13,7 @@ Current Cornell IEEE Maintenance Team:
 
 **Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-171-blue?style=flat)
+![Total Listings](https://img.shields.io/badge/Total%20Listings-170-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -32,7 +32,6 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
-| [Medtronic](https://www.medtronic.com/us-en/about/careers.html) | Senior Vendor Management Program Manager - IT Strategic Partnerships | Mounds View, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=afe80653dd6773c5) | Sep 09 2025 |
 | [Fujitsu](https://www.fujitsu.com/global/about/careers/) | Software Development Intern (Summer 2026) | Richardson, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=15189948b5d5651e) | Sep 09 2025 |
 | [FlexGen](https://flexgen.com/careers/) | Business Development Intern | Durham, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=5fdc0c9c2a6e3a73) | Sep 09 2025 |
 | [FlexGen](https://flexgen.com/careers/) | Procurement Intern | Durham, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e5e19b734c7fc56f) | Sep 09 2025 |
