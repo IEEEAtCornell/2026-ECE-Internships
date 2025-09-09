@@ -4,49 +4,77 @@ import pandas as pd
 import jobspy
 from thefuzz import fuzz
 from datetime import datetime
+import time
+
+# New import for automated URL searching
+from googlesearch import search
 
 # --- Configuration ---
 METADATA_FILE = "metadata.json"
 CSV_FILE = "jobs.csv"
-RESULTS_PER_SEARCH = 15  # Number of results to fetch for each keyword search
-HOURS_OLD = 72  # Max age of job postings in hours
+RESULTS_PER_SEARCH = 15
+HOURS_OLD = 72
 
 # --- Keyword Strategy for Targeted Searching ---
 SEARCH_KEYWORD_MAP = {
-    "AI": [
-        "ai hardware intern",
-        "machine learning intern electrical engineering",
-        "deep learning hardware intern",
-    ],
-    "FPGA": [
-        "fpga intern",
-        "rtl design intern",
-        "asic verification intern",
-    ],
-    "Semiconductors": [
-        "semiconductor intern",
-        "vlsi intern",
-        "asic design intern",
-        "analog ic design intern",
-        "rfic intern",
-    ],
-    "Trading": [
-        "quantitative trading intern hardware",
-        "fpga developer intern trading",
-        "low latency hardware intern",
-    ],
-    "Embedded Systems": [
-        "embedded systems intern",
-        "firmware engineer intern",
-        "iot hardware intern",
-    ],
+    "AI": ["ai hardware intern", "machine learning intern electrical engineering", "deep learning hardware intern"],
+    "FPGA": ["fpga intern", "rtl design intern", "asic verification intern"],
+    "Semiconductors": ["semiconductor intern", "vlsi intern", "asic design intern", "analog ic design intern", "rfic intern"],
+    "Trading": ["quantitative trading intern hardware", "fpga developer intern trading", "low latency hardware intern"],
+    "Embedded Systems": ["embedded systems intern", "firmware engineer intern", "iot hardware intern"],
 }
 
-def load_metadata(file_path):
-    """Loads metadata from the specified JSON file."""
-    print(f"📘 Loading metadata from {file_path}...")
-    with open(file_path, "r") as f:
-        return json.load(f)
+def find_company_url(company_name):
+    """Searches for a company's career page and returns the most likely URL."""
+    try:
+        # Construct a search query that's likely to yield the careers page
+        query = f"{company_name} careers"
+        # The pause parameter is crucial to avoid getting blocked by Google.
+        for url in search(query, tld="com", num=1, stop=1, pause=2):
+            return url
+        return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
+    except Exception as e:
+        print(f"⚠️  Could not automatically find URL for '{company_name}': {e}")
+        # Return a fallback Google search link if the search fails
+        return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
+
+def update_metadata_if_needed(scraped_df, metadata_file):
+    """Checks for new companies and updates the metadata file with their URLs."""
+    if scraped_df.empty:
+        return
+
+    print("\n🔄 Checking for new companies to add to metadata...")
+    with open(metadata_file, 'r') as f:
+        metadata = json.load(f)
+
+    known_companies = set(company.lower() for company in metadata['companies'].keys())
+    
+    # Create a set of unique company names from the scrape, handling potential None values
+    found_companies = {str(name) for name in scraped_df['company'].unique() if name}
+
+    new_companies = {comp for comp in found_companies if comp.lower() not in known_companies}
+
+    if not new_companies:
+        print("✅ All found companies are already in metadata.json.")
+        return
+
+    print(f"🆕 Found {len(new_companies)} new companies. Attempting to find URLs...")
+    updated = False
+    for company in sorted(list(new_companies)): # sort for consistent processing order
+        print(f"   - Searching for: {company}")
+        url = find_company_url(company)
+        metadata['companies'][company] = url
+        updated = True
+        time.sleep(1.5) # Be respectful to the search service
+
+    if updated:
+        # Sort the companies dictionary alphabetically by key for cleanliness
+        metadata['companies'] = dict(sorted(metadata['companies'].items(), key=lambda item: item[0].lower()))
+        
+        with open(metadata_file, 'w') as f:
+            json.dump(metadata, f, indent=2)
+        print(f"💾 Successfully updated {metadata_file} with {len(new_companies)} new company URLs.")
+
 
 def scrape_jobs_for_categories(keyword_map):
     """Scrapes jobs and returns a single DataFrame with a 'Category' column."""
@@ -65,19 +93,14 @@ def scrape_jobs_for_categories(keyword_map):
                     country_indeed="USA",
                 )
                 print(f"✅ Found {len(jobs_df)} jobs for '{keyword}'")
-
-                # FIX: Check if the DataFrame is not empty before processing
                 if not jobs_df.empty:
-                    jobs_df['Category'] = category  # Add category to the DataFrame
+                    jobs_df['Category'] = category
                     all_jobs_dfs.append(jobs_df)
-
             except Exception as e:
                 print(f"❌ Error scraping for '{keyword}': {e}")
 
     if not all_jobs_dfs:
-        return pd.DataFrame()  # Return an empty DataFrame if no jobs were found
-
-    # Combine all individual DataFrames into one
+        return pd.DataFrame()
     return pd.concat(all_jobs_dfs, ignore_index=True)
 
 def get_existing_jobs(filename):
@@ -106,16 +129,15 @@ def is_fuzzy_duplicate(new_job, existing_jobs_df, threshold=85):
 
 def main():
     """Main function to run the job scraping and processing pipeline."""
-    metadata = load_metadata(METADATA_FILE)
     existing_jobs_df = get_existing_jobs(CSV_FILE)
-
-    # Scraped jobs are now in a single DataFrame
     scraped_df = scrape_jobs_for_categories(SEARCH_KEYWORD_MAP)
 
-    # FIX: Use the correct method to check if the DataFrame is empty
     if scraped_df.empty:
-        print("\nNo jobs found in the scrape. Exiting.")
+        print("\nNo new jobs scraped. Exiting.")
         return
+
+    # >>> AUTOMATIC METADATA UPDATE <<<
+    update_metadata_if_needed(scraped_df, METADATA_FILE)
 
     scraped_df.drop_duplicates(subset=["title", "company", "location"], inplace=True)
     print(f"\n✨ Total unique jobs scraped: {len(scraped_df)}")
@@ -134,7 +156,6 @@ def main():
     new_jobs_to_append = []
     for job in new_jobs:
         date_posted = job.get('date_posted')
-        # Ensure date_posted is a datetime object before formatting
         formatted_date = pd.to_datetime(date_posted).strftime('%Y-%m-%d') if pd.notna(date_posted) else datetime.now().strftime('%Y-%m-%d')
         
         new_jobs_to_append.append({
