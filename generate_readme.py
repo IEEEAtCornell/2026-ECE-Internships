@@ -98,7 +98,14 @@ def generate_markdown(jobs_by_category, metadata):
 
     markdown_output = [HEADER + "\n"]
 
-    for category, jobs in jobs_by_category.items():
+    # Ensure Software Engineering appears last
+    all_categories = list(jobs_by_category.keys())
+    ordered_categories = sorted([cat for cat in all_categories if cat != "Software Engineering"])
+    if "Software Engineering" in all_categories:
+        ordered_categories.append("Software Engineering")
+
+    for category in ordered_categories:
+        jobs = jobs_by_category[category]
         if category not in metadata["categories"]:
             print(f"Warning: Category '{category}' not found in metadata. Skipping.")
             error = True
@@ -143,8 +150,11 @@ def main():
     metadata = load_metadata(JSON_FILE)
     jobs_by_category = parse_csv(CSV_FILE)
 
-    # Extract category names for ToC
-    categories = sorted(jobs_by_category.keys())
+    # Extract category names for ToC, ensuring Software Engineering is always last
+    all_categories = list(jobs_by_category.keys())
+    categories = sorted([cat for cat in all_categories if cat != "Software Engineering"])
+    if "Software Engineering" in all_categories:
+        categories.append("Software Engineering")
 
     # Update HEADER dynamically
     global HEADER
