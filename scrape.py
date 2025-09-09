@@ -5,8 +5,6 @@ import jobspy
 from thefuzz import fuzz
 from datetime import datetime
 import time
-
-# New import for automated URL searching
 from googlesearch import search
 
 # --- Configuration ---
@@ -15,7 +13,7 @@ CSV_FILE = "jobs.csv"
 RESULTS_PER_SEARCH = 15
 HOURS_OLD = 72
 
-# --- Keyword Strategy for Targeted Searching ---
+# this needs to be improved - peter
 SEARCH_KEYWORD_MAP = {
     "AI": ["ai hardware intern", "machine learning intern electrical engineering", "deep learning hardware intern"],
     "FPGA": ["fpga intern", "rtl design intern", "asic verification intern"],
@@ -28,15 +26,13 @@ SEARCH_KEYWORD_MAP = {
 def find_company_url(company_name):
     """Searches for a company's career page and returns the most likely URL."""
     try:
-        # Construct a search query that's likely to yield the careers page
         query = f"{company_name} careers"
-        # The pause parameter is crucial to avoid getting blocked by Google.
         for url in search(query, tld="com", num=1, stop=1, pause=2):
             return url
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
     except Exception as e:
         print(f"⚠️  Could not automatically find URL for '{company_name}': {e}")
-        # Return a fallback Google search link if the search fails
+        # return a backup Google search link if the search fails
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
 
 def update_metadata_if_needed(scraped_df, metadata_file):
@@ -50,7 +46,6 @@ def update_metadata_if_needed(scraped_df, metadata_file):
 
     known_companies = set(company.lower() for company in metadata['companies'].keys())
     
-    # Create a set of unique company names from the scrape, handling potential None values
     found_companies = {str(name) for name in scraped_df['company'].unique() if name}
 
     new_companies = {comp for comp in found_companies if comp.lower() not in known_companies}
@@ -61,15 +56,14 @@ def update_metadata_if_needed(scraped_df, metadata_file):
 
     print(f"🆕 Found {len(new_companies)} new companies. Attempting to find URLs...")
     updated = False
-    for company in sorted(list(new_companies)): # sort for consistent processing order
+    for company in sorted(list(new_companies)):
         print(f"   - Searching for: {company}")
         url = find_company_url(company)
         metadata['companies'][company] = url
         updated = True
-        time.sleep(1.5) # Be respectful to the search service
+        time.sleep(1.5) 
 
     if updated:
-        # Sort the companies dictionary alphabetically by key for cleanliness
         metadata['companies'] = dict(sorted(metadata['companies'].items(), key=lambda item: item[0].lower()))
         
         with open(metadata_file, 'w') as f:
@@ -137,7 +131,7 @@ def main():
         print("\nNo new jobs scraped. Exiting.")
         return
 
-    # >>> AUTOMATIC METADATA UPDATE <<<
+    # update metadata automatically for new companies that are untracked.
     update_metadata_if_needed(scraped_df, METADATA_FILE)
 
     scraped_df.drop_duplicates(subset=["title", "company", "location"], inplace=True)

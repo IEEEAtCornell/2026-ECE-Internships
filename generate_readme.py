@@ -62,19 +62,18 @@ Current Cornell IEEE Maintenance Team:
 ---
 """
 
-# Generate Footer with Timestamp
+# gen timestamp
 def generate_footer():
     current_date = datetime.today().strftime("%b %d, %Y")
     return f"""---
 _Last updated on `{current_date}`. Please verify application deadlines and availability with company websites._
 """
 
-# Load Metadata from JSON
+# load metadata
 def load_metadata(json_file):
     with open(json_file, "r") as file:
         return json.load(file)
 
-# Parse CSV File
 def parse_csv(csv_file):
     jobs_by_category = {}
     with open(csv_file, "r") as file:
@@ -87,18 +86,15 @@ def parse_csv(csv_file):
             jobs_by_category[category].append(row)
     return jobs_by_category
 
-# Format Date to "Feb 1 2025"
 def format_date(date_str):
     return datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d %Y")
 
-# Generate Markdown Tables
 def generate_markdown(jobs_by_category, metadata):
 
     global error
 
     markdown_output = [HEADER + "\n"]
 
-    # Ensure Software Engineering appears last
     all_categories = list(jobs_by_category.keys())
     ordered_categories = sorted([cat for cat in all_categories if cat != "Software Engineering"])
     if "Software Engineering" in all_categories:
@@ -122,7 +118,6 @@ def generate_markdown(jobs_by_category, metadata):
             app_link = job["Application Link"]
             date_posted = job["Date Posted"]
 
-            # Verify company URL from metadata
             if company in metadata["companies"]:
                 company_link = metadata["companies"][company]
             else:
@@ -131,7 +126,6 @@ def generate_markdown(jobs_by_category, metadata):
 
                 error = True
 
-            # Apply Button with Image
             apply_button = f"[![Apply]({APPLY_IMAGE_OPEN})]({app_link})" if job["Open"].lower() == "true" else f"[![Closed]({APPLY_IMAGE_CLOSED})]({app_link})"
 
             markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | {apply_button} | {date_posted} |\n")
@@ -146,17 +140,14 @@ def main():
 
     total_jobs = count_total_listings(CSV_FILE)
 
-    # Load metadata and jobs
     metadata = load_metadata(JSON_FILE)
     jobs_by_category = parse_csv(CSV_FILE)
 
-    # Extract category names for ToC, ensuring Software Engineering is always last
     all_categories = list(jobs_by_category.keys())
     categories = sorted([cat for cat in all_categories if cat != "Software Engineering"])
     if "Software Engineering" in all_categories:
         categories.append("Software Engineering")
 
-    # Update HEADER dynamically
     global HEADER
     HEADER = generate_header(total_jobs, categories)
 
