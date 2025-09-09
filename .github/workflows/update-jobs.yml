@@ -2,9 +2,9 @@ name: Update Job Listings
 
 on:
   schedule:
-    # Run daily at 9 AM UTC (adjust timezone as needed)
+    # Run daily at 9 AM UTC (5 AM EST / 2 AM PST)
     - cron: '0 9 * * *'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
     inputs:
       force_update:
         description: 'Force update even if no new jobs found'
@@ -21,55 +21,49 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
-    
+        python-version: '3.10'  # python-jobspy requires Python 3.10+
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    
+
     - name: Run job scraper
+      env:
+        JOBSPY_API_KEY: ${{ secrets.JOBSPY_API_KEY }}
       run: |
         python scrape.py
-      env:
-        # Add any environment variables needed for jobspy
-        JOBSPY_API_KEY: ${{ secrets.JOBSPY_API_KEY }}
-    
+
     - name: Generate README
       run: |
         python generate_readme.py
-    
+
     - name: Check for changes
       id: changes
       run: |
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "changes=true" >> $GITHUB_OUTPUT
-        else
+        if git diff --quiet; then
           echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
         fi
-    
+
     - name: Commit and push changes
       if: steps.changes.outputs.changes == 'true' || github.event.inputs.force_update == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add jobs.csv README.md
-        git commit -m "🤖 Automated job listings update - $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "Automated job listings update - $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
         git push
-    
-    - name: Create summary
-      if: always()
-      run: |
-        echo "## Job Update Summary" >> $GITHUB_STEP_SUMMARY
-        echo "- **Date**: $(date)" >> $GITHUB_STEP_SUMMARY
-        echo "- **Changes detected**: ${{ steps.changes.outputs.changes }}" >> $GITHUB_STEP_SUMMARY
-        echo "- **Force update**: ${{ github.event.inputs.force_update }}" >> $GITHUB_STEP_SUMMARY
-        
-        if [ -f "jobs.csv" ]; then
-          job_count=$(wc -l < jobs.csv)
-          echo "- **Total job listings**: $((job_count - 1))" >> $GITHUB_STEP_SUMMARY
-        fi
