@@ -1,0 +1,50 @@
+name: Weekly Job Summary Email
+
+on:
+  schedule:
+    # Run every Monday at 10 AM UTC
+    - cron: '0 10 * * 1'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  send-weekly-email:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run job scraper
+      run: |
+        python scrape.py
+    
+    - name: Generate README
+      run: |
+        python generate_readme.py
+    
+    - name: Send weekly email
+      run: |
+        python weekly_email.py
+      env:
+        EMAIL_SERVICE: ${{ secrets.EMAIL_SERVICE }}
+        EMAIL_USER: ${{ secrets.EMAIL_USER }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add jobs.csv README.md
+        git commit -m "📧 Weekly job summary update - $(date '+%Y-%m-%d')" || echo "No changes to commit"
+        git push

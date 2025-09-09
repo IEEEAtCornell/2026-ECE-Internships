@@ -14,14 +14,20 @@ CATEGORIES = metadata["categories"]
 COMPANIES = metadata["companies"]
 
 # Scrape jobs using jobspy
-jobs = jobspy.scrape_jobs(
-    site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor", "google"],
-    search_term="electrical computer intern",
-    google_search_term="electrical and computer engineering intern jobs",
-    results_wanted=20,
-    hours_old=72,
-    country_indeed="USA",
-)
+try:
+    jobs = jobspy.scrape_jobs(
+        site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor", "google"],
+        search_term="electrical computer intern",
+        google_search_term="electrical and computer engineering intern jobs",
+        results_wanted=20,
+        hours_old=72,
+        country_indeed="USA",
+    )
+    print(f"✅ Successfully scraped {len(jobs)} jobs")
+except Exception as e:
+    print(f"❌ Error scraping jobs: {str(e)}")
+    print("🔄 Continuing with existing job data...")
+    jobs = []
 
 print(f"Found {len(jobs)} jobs")
 

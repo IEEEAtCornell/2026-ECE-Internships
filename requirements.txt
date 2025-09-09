@@ -1,2 +1,3 @@
 python-jobspy==1.1.76
 thefuzz==0.22.1
+pandas>=1.3.0
