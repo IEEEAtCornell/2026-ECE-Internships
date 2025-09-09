@@ -7,7 +7,11 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 
 **For updates or corrections, please open a pull request!**
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-183-blue?style=flat)
+**Current Cornell IEEE Maintenance Team:**
+- [Peter He](https://peterhe.dev/)
+- [Dalton Luce](https://www.daltonluce.com/)
+
+![Total Listings](https://img.shields.io/badge/Total%20Listings-184-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -229,6 +233,7 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 | [C3 AI](https://c3.ai/careers/) | Software Engineer - Intern (Summer 2026) | Redwood City, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4295817027) | Sep 09 2025 |
 | [Wind River](https://www.windriver.com/company/careers) | Embedded Software Engineer - Intern | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297363824) | Sep 09 2025 |
 | [Allegion](https://www.allegion.com/corp/en/careers.html) | Summer Intern – Software Engineering – Quality Assurance | Golden, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4296629639) | Sep 09 2025 |
+| [Block](https://block.xyz/careers) | Software Engineer Intern (Summer 2026) |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298168323) | Sep 09 2025 |
 
 ---
 _Last updated on `Sep 09, 2025`. Please verify application deadlines and availability with company websites._
