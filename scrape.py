@@ -20,6 +20,7 @@ SEARCH_KEYWORD_MAP = {
     "AI": ["ai hardware intern", "machine learning intern electrical engineering", "deep learning hardware intern"],
     "FPGA": ["fpga intern", "rtl design intern", "asic verification intern"],
     "Semiconductors": ["semiconductor intern", "vlsi intern", "asic design intern", "analog ic design intern", "rfic intern"],
+    "Software Engineering": ["software engineering intern", "software engineer intern", "it engineer intern", "software development intern"],
     "Trading": ["quantitative trading intern hardware", "fpga developer intern trading", "low latency hardware intern"],
     "Embedded Systems": ["embedded systems intern", "firmware engineer intern", "iot hardware intern"],
 }
