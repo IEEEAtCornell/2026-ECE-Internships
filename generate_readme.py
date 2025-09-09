@@ -46,6 +46,10 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 
 **For updates or corrections, please open a pull request!**
 
+**Current Cornell IEEE Maintenance Team:**
+- [Peter He](https://peterhe.dev/)
+- [Dalton Luce](https://www.daltonluce.com/)
+
 ![Total Listings]({listings_badge})
 [![IEEE at Cornell]({IEEE_BADGE})]({IEEE_URL})
 
