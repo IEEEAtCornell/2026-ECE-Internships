@@ -65,6 +65,7 @@ def scrape_jobs_for_categories(keyword_map):
                     results_wanted=RESULTS_PER_SEARCH,
                     hours_old=HOURS_OLD,
                     country_indeed="USA",
+                    return_dict=True  # FIX: Ensures the output is a list of dictionaries
                 )
                 print(f"✅ Found {len(jobs)} jobs for '{keyword}'")
                 for job in jobs:
@@ -130,7 +131,7 @@ def main():
     new_jobs_to_append = []
     for job in new_jobs:
         # Format date to YYYY-MM-DD
-        date_posted = job['date_posted']
+        date_posted = job.get('date_posted')
         formatted_date = date_posted.strftime("%Y-%m-%d") if isinstance(date_posted, datetime) else datetime.now().strftime("%Y-%m-%d")
 
         new_jobs_to_append.append({

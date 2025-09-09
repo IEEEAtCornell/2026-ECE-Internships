@@ -42,10 +42,14 @@ def generate_header(total_jobs, categories):
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
 
-This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). For updates or corrections, please open a pull request!
+This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.cornell.edu/ieee/). 
+
+**For updates or corrections, please open a pull request!**
 
 ![Total Listings]({listings_badge})
 [![IEEE at Cornell]({IEEE_BADGE})]({IEEE_URL})
+
+
 
 {generate_toc(categories)}
 
