@@ -12,8 +12,6 @@ RESULTS_PER_SEARCH = 15  # Number of results to fetch for each keyword search
 HOURS_OLD = 72  # Max age of job postings in hours
 
 # --- Keyword Strategy for Targeted Searching ---
-# Maps categories from metadata.json to specific search terms.
-# This helps find more relevant ECE roles.
 SEARCH_KEYWORD_MAP = {
     "AI": [
         "ai hardware intern",
@@ -51,49 +49,36 @@ def load_metadata(file_path):
         return json.load(f)
 
 def scrape_jobs_for_categories(keyword_map):
-    """Scrapes jobs for each category using targeted keywords."""
-    all_jobs = []
+    """Scrapes jobs and returns a single DataFrame with a 'Category' column."""
+    all_jobs_dfs = []
     print("🚀 Starting job scraping process...")
     for category, keywords in keyword_map.items():
         print(f"\n--- Searching for category: {category} ---")
         for keyword in keywords:
             print(f"🔍 Searching for term: '{keyword}'...")
             try:
-                jobs = jobspy.scrape_jobs(
+                jobs_df = jobspy.scrape_jobs(
                     site_name=["linkedin", "indeed", "glassdoor"],
                     search_term=keyword,
                     results_wanted=RESULTS_PER_SEARCH,
                     hours_old=HOURS_OLD,
                     country_indeed="USA",
-                    return_dict=True  # FIX: Ensures the output is a list of dictionaries
                 )
-                print(f"✅ Found {len(jobs)} jobs for '{keyword}'")
-                
-                # Check if jobs is a list of dictionaries or strings
-                if jobs and isinstance(jobs[0], dict):
-                    # Jobs are already dictionaries, add category
-                    for job in jobs:
-                        job['Category'] = category  # Tag each job with its category
-                    all_jobs.extend(jobs)
-                elif jobs and isinstance(jobs[0], str):
-                    # Jobs are strings, convert to dictionaries
-                    for job_str in jobs:
-                        job_dict = {
-                            'title': job_str,
-                            'company': 'Unknown',
-                            'location': 'Unknown',
-                            'job_url': '',
-                            'date_posted': datetime.now(),
-                            'Category': category
-                        }
-                        all_jobs.append(job_dict)
-                else:
-                    # Handle empty or unexpected format
-                    print(f"⚠️  Unexpected job format for '{keyword}': {type(jobs[0]) if jobs else 'empty'}")
-                    all_jobs.extend(jobs)
+                print(f"✅ Found {len(jobs_df)} jobs for '{keyword}'")
+
+                # FIX: Check if the DataFrame is not empty before processing
+                if not jobs_df.empty:
+                    jobs_df['Category'] = category  # Add category to the DataFrame
+                    all_jobs_dfs.append(jobs_df)
+
             except Exception as e:
                 print(f"❌ Error scraping for '{keyword}': {e}")
-    return all_jobs
+
+    if not all_jobs_dfs:
+        return pd.DataFrame()  # Return an empty DataFrame if no jobs were found
+
+    # Combine all individual DataFrames into one
+    return pd.concat(all_jobs_dfs, ignore_index=True)
 
 def get_existing_jobs(filename):
     """Loads existing jobs from the CSV file."""
@@ -108,11 +93,12 @@ def is_fuzzy_duplicate(new_job, existing_jobs_df, threshold=85):
         title_score = fuzz.ratio(str(new_job["title"]).lower(), str(existing_job["Role"]).lower())
         company_score = fuzz.ratio(str(new_job["company"]).lower(), str(existing_job["Company"]).lower())
         
-        # Only compare location if both are strings
-        if isinstance(new_job.get("location"), str) and isinstance(existing_job.get("Location"), str):
-            location_score = fuzz.ratio(new_job["location"].lower(), existing_job["Location"].lower())
+        location = new_job.get("location")
+        existing_location = existing_job.get("Location")
+        if isinstance(location, str) and isinstance(existing_location, str):
+            location_score = fuzz.ratio(location.lower(), existing_location.lower())
         else:
-            location_score = 100 # Assume match if location data is missing/not comparable
+            location_score = 100
 
         if title_score > threshold and company_score > threshold and location_score > threshold:
             return True
@@ -120,28 +106,25 @@ def is_fuzzy_duplicate(new_job, existing_jobs_df, threshold=85):
 
 def main():
     """Main function to run the job scraping and processing pipeline."""
-    # Load metadata and existing jobs
     metadata = load_metadata(METADATA_FILE)
     existing_jobs_df = get_existing_jobs(CSV_FILE)
 
-    # Scrape new jobs based on the keyword map
-    scraped_jobs = scrape_jobs_for_categories(SEARCH_KEYWORD_MAP)
-    if not scraped_jobs:
+    # Scraped jobs are now in a single DataFrame
+    scraped_df = scrape_jobs_for_categories(SEARCH_KEYWORD_MAP)
+
+    # FIX: Use the correct method to check if the DataFrame is empty
+    if scraped_df.empty:
         print("\nNo jobs found in the scrape. Exiting.")
         return
 
-    # Convert to DataFrame and remove duplicates from the scrape itself
-    scraped_df = pd.DataFrame(scraped_jobs)
     scraped_df.drop_duplicates(subset=["title", "company", "location"], inplace=True)
     print(f"\n✨ Total unique jobs scraped: {len(scraped_df)}")
 
-    # Identify jobs that are not already in the CSV
     new_jobs = []
     for _, job in scraped_df.iterrows():
         if not is_fuzzy_duplicate(job, existing_jobs_df):
             new_jobs.append(job)
 
-    # Process and save new jobs
     if not new_jobs:
         print("✅ No new job postings found. The jobs list is up to date!")
         return
@@ -150,10 +133,10 @@ def main():
     
     new_jobs_to_append = []
     for job in new_jobs:
-        # Format date to YYYY-MM-DD
         date_posted = job.get('date_posted')
-        formatted_date = date_posted.strftime("%Y-%m-%d") if isinstance(date_posted, datetime) else datetime.now().strftime("%Y-%m-%d")
-
+        # Ensure date_posted is a datetime object before formatting
+        formatted_date = pd.to_datetime(date_posted).strftime('%Y-%m-%d') if pd.notna(date_posted) else datetime.now().strftime('%Y-%m-%d')
+        
         new_jobs_to_append.append({
             "Category": job.get("Category", "General"),
             "Company": job.get("company"),
@@ -165,7 +148,6 @@ def main():
         })
         print(f"  - 🆕 {job['company']} - {job['title']} ({job['Category']})")
 
-    # Append new jobs to the CSV file
     new_jobs_df = pd.DataFrame(new_jobs_to_append)
     updated_df = pd.concat([existing_jobs_df, new_jobs_df], ignore_index=True)
     updated_df.to_csv(CSV_FILE, index=False)
