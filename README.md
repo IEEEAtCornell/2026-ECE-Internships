@@ -1,4 +1,4 @@
-# Summer 2025 Electrical and Computer Engineering Internships by IEEE at Cornell
+# Summer 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
 
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
@@ -14,8 +14,6 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 - [FPGA](#fpga)
 - [Semiconductors](#semiconductors)
 - [Trading](#trading)
-- [Embedded Systems](#Embedded-Systems)
-
 
 ---
 
@@ -46,11 +44,5 @@ This list is compiled and maintained by [IEEE at Cornell](https://sites.coecis.c
 | [Jane Street](https://www.janestreet.com/) | Quantitative Trader Intern | NY | [![Closed](https://img.shields.io/badge/Closed-e22c5a?style=flat)](https://www.janestreet.com/quant-trader-internship) | Feb 03 2025 |
 | [Citadel](https://www.citadel.com/) | Summer Trading Intern | IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.citadel.com/careers/summer-trading-intern) | Feb 02 2025 |
 
-## Embedded-Systems
-
-| Company | Role | Location | Application Link | Date Posted |
-|---------|------|----------|------------------|-------------|
-
-
 ---
-_Last updated on `Feb 09, 2025`. Please verify application deadlines and availability with company websites._
+_Last updated on `Sep 09, 2025`. Please verify application deadlines and availability with company websites._
