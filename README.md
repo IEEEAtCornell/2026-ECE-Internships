@@ -11,8 +11,9 @@ Current Cornell IEEE Maintenance Team:
 - [Peter He](https://peterhe.dev/)
 - [Dalton Luce](https://www.daltonluce.com/)
 
+**Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-176-blue?style=flat)
+![Total Listings](https://img.shields.io/badge/Total%20Listings-171-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -37,7 +38,6 @@ Current Cornell IEEE Maintenance Team:
 | [Block](https://block.xyz/careers) | Software Engineer Intern (Summer 2026) | San Francisco Bay Area, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2b1149652f25eaf0) | Sep 09 2025 |
 | [HP](https://www.hp.com/us-en/jobs.html) | Supply Chain Engineering Internship | Spring, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=061df8eeb61954a8) | Sep 08 2025 |
 | [HP](https://www.hp.com/us-en/jobs.html) | Personal Systems Hardware Engineering Internship | Spring, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=7a590683f0794f76) | Sep 08 2025 |
-| [The Toro Company](https://www.thetorocompany.com/careers) | Mechanical Value Engineering (VAVE) Intern - The Toro Company | Bloomington, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=4fe468e8fc21d941) | Sep 08 2025 |
 | [The Toro Company](https://www.thetorocompany.com/careers) | Marketing Performance Analytics Intern - The Toro Company | Bloomington, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=77d912c3fb980d6a) | Sep 08 2025 |
 | [Toyota Research Institute](https://www.tri.global/careers) | Machine Learning Intern - Vision-Language-Action Pretraining | Los Altos, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=9e67b2f85bf2ad3b) | Sep 08 2025 |
 | [Board of Governors of the Federal Reserve System](https://www.federalreserve.gov/careers.htm) | Summer 2026 Intern – IT Operations Intern (OIG) | Washington, DC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=1b489ca039b40987) | Sep 08 2025 |
@@ -60,14 +60,11 @@ Current Cornell IEEE Maintenance Team:
 | [Salesforce](https://www.salesforce.com/company/careers/) | Summer 2025 Intern - Salesforce AI Research | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4298107905) | Sep 09 2025 |
 | [Jobs via Dice](https://www.dice.com/) | Internship, Electronic Design Engineer, AI Hardware (Winter/Spring 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297848549) | Sep 09 2025 |
 | [Jobs via Dice](https://www.dice.com/) | Internship, Hardware Design Engineer, Silicon Development, AI Hardware (Winter/Spring 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4297861147) | Sep 09 2025 |
-| [Siemens](https://www.siemens.com/global/en/company/jobs.html) | Mechanical Data Analyst- Customer Service (Summer 2026) | Lexington, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ec39cfe179bcaa4c) | Sep 08 2025 |
-| [Copeland](https://www.copeland.com/en-us/careers) | 2026 Mechanical Engineering Internship Opportunities | Sidney, OH, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=1979f34ad2f73fec) | Sep 08 2025 |
 | [Subaru of America, Inc.](https://www.subaru.com/about/careers.html) | INTERN - Research & Development (Advanced Driver Assistance System/Subaru Eyesight) | Van Buren, MI, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=8ab91d787668f807) | Sep 08 2025 |
 | [Marvell Technology](https://www.marvell.com/careers.html) | Physical Design Engineer Intern - Master's Degree | Westborough, MA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=27924b64604244d7) | Sep 08 2025 |
 | [TTM Technologies](https://www.ttm.com/careers/) | 2026 Engineering Internship | Sterling, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=7becf906c4ed2170) | Sep 08 2025 |
 | [TTM Technologies](https://www.ttm.com/careers/) | 2026 Engineering Intern | San Jose, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=0bdbc8ae6cce07f4) | Sep 08 2025 |
 | [Loram](https://www.loram.com/careers/) | Machine Learning / Artificial Intelligence (AI) Intern | Hamel, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=fe0bc2236366233f) | Sep 08 2025 |
-| [Danfoss](https://www.danfoss.com/en/about-danfoss/careers/) | Mechanical Engineering Intern Fall 2025 | Milwaukee, WI, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=fa9b01efac0bf304) | Sep 08 2025 |
 | [Volvo Group](https://www.volvogroup.com/en/careers.html) | Intern: Systems Engineering (Summer 2026) | Greensboro, NC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=94f6a8957d09916e) | Sep 08 2025 |
 | [Parsons](https://www.parsons.com/careers/) | Engineering Internship Summer 2026 | Herndon, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=105c0120f3611f51) | Sep 08 2025 |
 | [Meta](https://www.metacareers.com/) | Research Scientist Intern, Advanced Display (PhD) | Redmond, WA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=a93be72f5aea2686) | Sep 07 2025 |
@@ -146,7 +143,6 @@ Current Cornell IEEE Maintenance Team:
 | [KLA](https://www.kla.com/careers) | Laser Manufacturing Engineer | Milpitas, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=bb1d070492d90500) | Sep 08 2025 |
 | [KLA](https://www.kla.com/careers) | Engr, Assoc Test 2 | Milpitas, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=69d70e1dd5db3d8a) | Sep 08 2025 |
 | [Linde](https://www.linde.com/careers) | Summer 2026 - Engineering Intern | Indianapolis, IN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=71bf96d01e3d5bcd) | Sep 08 2025 |
-| [CMTA Consulting Engineers](https://cmta.com/careers/) | Mechanical Engineer Intern/Co-op Spring 2026 - CMTA | Indianapolis, IN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=c01d1cdcff690df9) | Sep 08 2025 |
 | [Legence](https://www.legence.com/careers/) | Electrical Engineer Intern/Co-op Spring 2026 - CMTA | Indianapolis, IN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ff739c64f45ffef6) | Sep 08 2025 |
 | [CMTA Consulting Engineers](https://cmta.com/careers/) | Electrical Engineer Intern/Co-op Spring 2026 - CMTA | Indianapolis, IN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=86b11c0dc4c5ba82) | Sep 08 2025 |
 | [Keysight Technologies](https://www.keysight.com/us/en/careers.html) | IT Engineer Intern | Santa Rosa, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4294723455) | Sep 08 2025 |
