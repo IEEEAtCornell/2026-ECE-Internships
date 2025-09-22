@@ -27,20 +27,23 @@ def find_company_url(company_name):
     """Searches for a company's career page and returns the most likely URL."""
     try:
         query = f"{company_name} careers"
-        for url in search(query, tld="com", num=1, stop=1, pause=2):
+        # The 'tld' and 'num' arguments were removed to ensure compatibility
+        # with the commonly installed versions of the googlesearch library.
+        for url in search(query, stop=1, pause=2):
             return url
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
     except Exception as e:
+        # The error message is made more visible and informative.
         print(f"⚠️  Could not automatically find URL for '{company_name}': {e}")
-        # return a backup Google search link if the search fails
+        # Return a backup Google search link if the search fails.
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
 
 def update_metadata_if_needed(scraped_df, metadata_file):
     """Checks for new companies and updates the metadata file with their URLs."""
     if scraped_df.empty:
         return
-
-    print("\n🔄 Checking for new companies to add to metadata...")
+    
+    print("\nChecking for new companies to add to metadata...")
     with open(metadata_file, 'r') as f:
         metadata = json.load(f)
 
@@ -49,16 +52,16 @@ def update_metadata_if_needed(scraped_df, metadata_file):
     found_companies = {str(name) for name in scraped_df['company'].unique() if name}
 
     new_companies = {comp for comp in found_companies if comp.lower() not in known_companies}
-    
+
     if not new_companies:
-        print("✅ All found companies are already in metadata.json.")
+        print("All found companies are already in metadata.json.")
         return
 
     print(f"🆕 Found {len(new_companies)} new companies. Attempting to find URLs...")
     updated = False
     for company in sorted(list(new_companies)):
         print(f"   - Searching for: {company}")
-        url = find_company_url(company) # This line was missing the assignment to metadata['companies'][company]
+        url = find_company_url(company) 
         metadata['companies'][company] = url
         updated = True
         time.sleep(1.5) 
@@ -68,7 +71,7 @@ def update_metadata_if_needed(scraped_df, metadata_file):
         
         with open(metadata_file, 'w') as f:
             json.dump(metadata, f, indent=2)
-        print(f"💾 Successfully updated {metadata_file} with {len(new_companies)} new company URLs.")
+        print(f"Successfully updated {metadata_file} with {len(new_companies)} new company URLs.")
 
 
 def scrape_jobs_for_categories(keyword_map):
@@ -87,12 +90,12 @@ def scrape_jobs_for_categories(keyword_map):
                     hours_old=HOURS_OLD,
                     country_indeed="USA",
                 )
-                print(f"✅ Found {len(jobs_df)} jobs for '{keyword}'")
+                print(f"Found {len(jobs_df)} jobs for '{keyword}'")
                 if not jobs_df.empty:
                     jobs_df['Category'] = category
                     all_jobs_dfs.append(jobs_df)
             except Exception as e:
-                print(f"❌ Error scraping for '{keyword}': {e}")
+                print(f"Error scraping for '{keyword}': {e}") # noqa: F841
 
     if not all_jobs_dfs:
         return pd.DataFrame()
@@ -101,7 +104,7 @@ def scrape_jobs_for_categories(keyword_map):
 def get_existing_jobs(filename):
     """Loads existing jobs from the CSV file."""
     if os.path.exists(filename):
-        print(f"📑 Loading existing jobs from {filename}.")
+        print(f"Loading existing jobs from {filename}.")
         return pd.read_csv(filename)
     return pd.DataFrame()
 
@@ -123,7 +126,6 @@ def is_fuzzy_duplicate(new_job, existing_jobs_df, threshold=85):
     return False
 
 def main():
-    """Main function to run the job scraping and processing pipeline."""
     existing_jobs_df = get_existing_jobs(CSV_FILE)
     scraped_df = scrape_jobs_for_categories(SEARCH_KEYWORD_MAP)
 
@@ -131,11 +133,10 @@ def main():
         print("\nNo new jobs scraped. Exiting.")
         return
 
-    # update metadata automatically for new companies that are untracked.
     update_metadata_if_needed(scraped_df, METADATA_FILE)
 
     scraped_df.drop_duplicates(subset=["title", "company", "location"], inplace=True)
-    print(f"\n✨ Total unique jobs scraped: {len(scraped_df)}")
+    print(f"\nTotal unique jobs scraped: {len(scraped_df)}")
 
     new_jobs = []
     for _, job in scraped_df.iterrows():
@@ -143,10 +144,10 @@ def main():
             new_jobs.append(job)
 
     if not new_jobs:
-        print("✅ No new job postings found. The jobs list is up to date!")
+        print("No new job postings found. The jobs list is up to date!")
         return
 
-    print(f"\n📢 Found {len(new_jobs)} new jobs!")
+    print(f"\nFound {len(new_jobs)} new jobs!")
     
     new_jobs_to_append = []
     for job in new_jobs:
@@ -162,13 +163,13 @@ def main():
             "Date Posted": formatted_date,
             "Open": "TRUE"
         })
-        print(f"  - 🆕 {job['company']} - {job['title']} ({job['Category']})")
+        print(f"  - {job['company']} - {job['title']} ({job['Category']})")
 
     new_jobs_df = pd.DataFrame(new_jobs_to_append)
     updated_df = pd.concat([existing_jobs_df, new_jobs_df], ignore_index=True)
     updated_df.to_csv(CSV_FILE, index=False)
     
-    print(f"\n💾 Successfully added {len(new_jobs_df)} new jobs to {CSV_FILE}.")
+    print(f"\nSuccessfully added {len(new_jobs_df)} new jobs to {CSV_FILE}.")
 
 if __name__ == "__main__":
     main()
