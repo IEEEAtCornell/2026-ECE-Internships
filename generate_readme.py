@@ -39,6 +39,8 @@ def generate_header(total_jobs, categories):
     listings_badge = f"https://img.shields.io/badge/Total%20Listings-{total_jobs}-blue?style=flat"
     return f"""# Summer 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
 
+![IEEE at Cornell](IEEECornellJob.png)
+
 This list compiles internship opportunities in **Electrical and Computer Engineering**, categorized for easy navigation.
 Each listing includes company details, role, location, application links, posting dates, and availability status.
 
@@ -82,12 +84,17 @@ def parse_csv(csv_file):
             category = row["Category"]
             if category not in jobs_by_category:
                 jobs_by_category[category] = []
-            row["Date Posted"] = format_date(row["Date Posted"])
+            # We will format the date later, keeping it as YYYY-MM-DD for sorting
             jobs_by_category[category].append(row)
     return jobs_by_category
 
 def format_date(date_str):
-    return datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d %Y")
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%d").strftime("%b %d %Y")
+    except (ValueError, TypeError):
+        # Handle cases where the date might be malformed or missing
+        return date_str
+
 
 def generate_markdown(jobs_by_category, metadata):
 
@@ -102,6 +109,10 @@ def generate_markdown(jobs_by_category, metadata):
 
     for category in ordered_categories:
         jobs = jobs_by_category[category]
+        
+        # Sort jobs by "Date Posted" in descending order (most recent first)
+        jobs.sort(key=lambda x: x["Date Posted"], reverse=True)
+        
         if category not in metadata["categories"]:
             print(f"Warning: Category '{category}' not found in metadata. Skipping.")
             error = True
@@ -116,7 +127,8 @@ def generate_markdown(jobs_by_category, metadata):
             role = job["Role"]
             location = job["Location"]
             app_link = job["Application Link"]
-            date_posted = job["Date Posted"]
+            # Format the date string for display just before writing
+            date_posted = format_date(job["Date Posted"])
 
             if company in metadata["companies"]:
                 company_link = metadata["companies"][company]
