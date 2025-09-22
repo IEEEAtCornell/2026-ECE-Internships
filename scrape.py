@@ -88,7 +88,7 @@ def scrape_jobs_for_categories(keyword_map):
                     hours_old=HOURS_OLD,
                     country_indeed="USA",
                     headers = {
-                        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+                        "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"
                     }
                     
                 )
