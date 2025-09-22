@@ -49,7 +49,7 @@ def update_metadata_if_needed(scraped_df, metadata_file):
     found_companies = {str(name) for name in scraped_df['company'].unique() if name}
 
     new_companies = {comp for comp in found_companies if comp.lower() not in known_companies}
-
+    
     if not new_companies:
         print("✅ All found companies are already in metadata.json.")
         return
@@ -58,7 +58,7 @@ def update_metadata_if_needed(scraped_df, metadata_file):
     updated = False
     for company in sorted(list(new_companies)):
         print(f"   - Searching for: {company}")
-        url = find_company_url(company)
+        url = find_company_url(company) # This line was missing the assignment to metadata['companies'][company]
         metadata['companies'][company] = url
         updated = True
         time.sleep(1.5) 
