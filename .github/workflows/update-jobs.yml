@@ -68,6 +68,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add jobs.csv README.md
+        git add jobs.csv README.md metadata.json
         git commit -m "Automated job listings update - $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
         git push origin HEAD:main
