@@ -27,11 +27,11 @@ def find_company_url(company_name):
     """Searches for a company's career page and returns the most likely URL."""
     try:
         query = f"{company_name} careers"
-        for url in search(query, stop=1, pause=2):
+        for url in search(query, num_results=1, pause=2):
             return url
+        # This is a fallback if the search yields no results
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
     except Exception as e:
-        # The error message is made more visible and informative.
         print(f"⚠️  Could not automatically find URL for '{company_name}': {e}")
         # Return a backup Google search link if the search fails.
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
@@ -79,7 +79,7 @@ def scrape_jobs_for_categories(keyword_map):
     for category, keywords in keyword_map.items():
         print(f"\n--- Searching for category: {category} ---")
         for keyword in keywords:
-            print(f"🔍 Searching for term: '{keyword}'...")
+            print(f"🔍 Searching for term: '{keyword}'...")            
             try:
                 jobs_df = jobspy.scrape_jobs(
                     site_name=["linkedin", "indeed", "glassdoor"],
