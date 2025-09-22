@@ -27,8 +27,6 @@ def find_company_url(company_name):
     """Searches for a company's career page and returns the most likely URL."""
     try:
         query = f"{company_name} careers"
-        # The 'tld' and 'num' arguments were removed to ensure compatibility
-        # with the commonly installed versions of the googlesearch library.
         for url in search(query, stop=1, pause=2):
             return url
         return f"https://www.google.com/search?q={company_name.replace(' ', '+')}"
@@ -89,6 +87,10 @@ def scrape_jobs_for_categories(keyword_map):
                     results_wanted=RESULTS_PER_SEARCH,
                     hours_old=HOURS_OLD,
                     country_indeed="USA",
+                    headers = {
+                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+                    }
+                    
                 )
                 print(f"Found {len(jobs_df)} jobs for '{keyword}'")
                 if not jobs_df.empty:
