@@ -3003,35 +3003,138 @@ Embedded Systems,Southcott Engineering,Software Engineering Intern,"Remote, US",
 Embedded Systems,Medtronic,"Software Engineering Director, Affera Mapping System, Newton, MA","Newton, MA, US",https://www.indeed.com/viewjob?jk=45cd165d5de7879f,2025-10-18,True
 Embedded Systems,Eaton,Electrical Engineer Intern (Summer 2026),"Waukesha, WI, US",https://www.indeed.com/viewjob?jk=abcbb42127dc1f00,2025-10-13,True
 Embedded Systems,Stratus,Embedded Software Engineer Intern,"San Francisco, CA",https://www.linkedin.com/jobs/view/4316145476,2025-10-19,True
-AI,Nutanix,Visual Design Intern (Summer 2026- Undergraduates Only),"San Jose, CA",https://www.linkedin.com/jobs/view/4314683595,2025-10-18,TRUE
-AI,Lensa,"Solutions, Consulting, & Engineering Intern -Services Strategic Initiatives - 2026",,https://www.linkedin.com/jobs/view/4297215805,2025-10-18,TRUE
-AI,Wayve,"Research Scientist Intern, Embodied Foundation Models (Evaluation)","Sunnyvale, CA",https://www.linkedin.com/jobs/view/4313396589,2025-10-17,TRUE
-AI,ExecutivePlacements.com - The JOB Portal,"ML Research Engineer, Intern","Milpitas, CA",https://www.linkedin.com/jobs/view/4317025538,2025-10-20,TRUE
-AI,Siemens,Protection & Automation Engineering Summer - Fall 2026 Internship,"Wendell, NC, US",https://www.indeed.com/viewjob?jk=23b7310887947f1f,2025-10-19,TRUE
-AI,iVoyant,AI & LLM Engineering Internship,"Atlanta, GA",https://www.linkedin.com/jobs/view/4316443632,2025-10-20,TRUE
-FPGA,Terracon,Staff Engineer (Part Time),"Niles, MI",https://www.linkedin.com/jobs/view/4315197919,2025-10-17,TRUE
-Semiconductors,Skyworks Solutions,Product Engineer Co-Op (Summer/Fall 2026),"Irvine, CA, US",https://www.indeed.com/viewjob?jk=3a85c6c8c72db9d0,2025-10-19,TRUE
-Semiconductors,Qualcomm,Mechanical Engineering Internship – Summer 2026,"San Diego, CA",https://www.linkedin.com/jobs/view/4316107000,2025-10-18,TRUE
-Semiconductors,Atomic Semi,Process Engineering Intern - Summer,,https://www.linkedin.com/jobs/view/4316345492,2025-10-17,TRUE
-Software Engineering,University Corporation for Atmospheric Research,2026 NSF SOARS® First-Year Protege,US,https://www.indeed.com/viewjob?jk=2a8e3dcaabf6fa59,2025-10-20,TRUE
-Software Engineering,Vast,2026 Summer Internship - Mechanical/Aerospace Engineering,"Long Beach, CA",https://www.linkedin.com/jobs/view/4296408879,2025-10-18,TRUE
-Software Engineering,American Tower,Summer 2026 Engineering Intern,"Cary, NC",https://www.linkedin.com/jobs/view/4296139726,2025-10-18,TRUE
-Software Engineering,Lensa,"Software Engineering Summer Intern, Customer Decision Hub","Watertown, MA",https://www.linkedin.com/jobs/view/4317062472,2025-10-20,TRUE
-Software Engineering,Henkel,Engineering Intern – Summer 2026,"Cleveland, OH",https://www.linkedin.com/jobs/view/4296646121,2025-10-20,TRUE
-Software Engineering,FoundStudy,Maintenance Supervisor/Technician,"New York, NY, US",https://www.indeed.com/viewjob?jk=108504008aedafae,2025-10-20,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"San Diego, CA, US",https://www.indeed.com/viewjob?jk=8da184e1fc8539ba,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Grand Rapids, MI, US",https://www.indeed.com/viewjob?jk=8c2aa032762b9a33,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Oakland, CA, US",https://www.indeed.com/viewjob?jk=b9474371ac42c631,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Detroit, MI, US",https://www.indeed.com/viewjob?jk=050971a23613887e,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"San Francisco, CA, US",https://www.indeed.com/viewjob?jk=b984a5b7d4435d1f,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Anaheim, CA, US",https://www.indeed.com/viewjob?jk=f350f43040ee604c,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Sacramento, CA, US",https://www.indeed.com/viewjob?jk=6b192ec9590b05f5,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Los Angeles, CA, US",https://www.indeed.com/viewjob?jk=8332fe8690b66fcf,2025-10-19,TRUE
-Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Seattle, WA, US",https://www.indeed.com/viewjob?jk=064d9e465778bda6,2025-10-19,TRUE
-Software Engineering,City Of Bellevue,"Senior Engineer, Office of the Grand Connection","Bellevue, WA, US",https://www.indeed.com/viewjob?jk=9f358d7fbb10b0c3,2025-10-17,TRUE
-Software Engineering,Jobs via Dice,Systems Engineer (Airborne Radar & Converged Sensors) - Intern,"Liverpool, NY",https://www.linkedin.com/jobs/view/4312195723,2025-10-18,TRUE
-Software Engineering,Jobs via Dice,Systems Engineer (Integration and Test) - Intern,"Moorestown, NJ",https://www.linkedin.com/jobs/view/4312195729,2025-10-18,TRUE
-Software Engineering,"ADMA Biologics, Inc.","Intern, Engineer","Boca Raton, FL",https://www.linkedin.com/jobs/view/4316343148,2025-10-17,TRUE
-Software Engineering,Peraton,UI Software Engineer,"Annapolis Junction, MD",https://www.linkedin.com/jobs/view/4315766851,2025-10-17,TRUE
-Software Engineering,Motion,Marketing Technology Intern,"Birmingham, AL",https://www.linkedin.com/jobs/view/4296647629,2025-10-20,TRUE
-Embedded Systems,Life Fitness  / Hammer Strength,Embedded Software Engineering Intern,"Schaumburg, IL",https://www.linkedin.com/jobs/view/4313391484,2025-10-17,TRUE
+AI,Nutanix,Visual Design Intern (Summer 2026- Undergraduates Only),"San Jose, CA",https://www.linkedin.com/jobs/view/4314683595,2025-10-18,True
+AI,Lensa,"Solutions, Consulting, & Engineering Intern -Services Strategic Initiatives - 2026",,https://www.linkedin.com/jobs/view/4297215805,2025-10-18,True
+AI,Wayve,"Research Scientist Intern, Embodied Foundation Models (Evaluation)","Sunnyvale, CA",https://www.linkedin.com/jobs/view/4313396589,2025-10-17,True
+AI,ExecutivePlacements.com - The JOB Portal,"ML Research Engineer, Intern","Milpitas, CA",https://www.linkedin.com/jobs/view/4317025538,2025-10-20,True
+AI,Siemens,Protection & Automation Engineering Summer - Fall 2026 Internship,"Wendell, NC, US",https://www.indeed.com/viewjob?jk=23b7310887947f1f,2025-10-19,True
+AI,iVoyant,AI & LLM Engineering Internship,"Atlanta, GA",https://www.linkedin.com/jobs/view/4316443632,2025-10-20,True
+FPGA,Terracon,Staff Engineer (Part Time),"Niles, MI",https://www.linkedin.com/jobs/view/4315197919,2025-10-17,True
+Semiconductors,Skyworks Solutions,Product Engineer Co-Op (Summer/Fall 2026),"Irvine, CA, US",https://www.indeed.com/viewjob?jk=3a85c6c8c72db9d0,2025-10-19,True
+Semiconductors,Qualcomm,Mechanical Engineering Internship – Summer 2026,"San Diego, CA",https://www.linkedin.com/jobs/view/4316107000,2025-10-18,True
+Semiconductors,Atomic Semi,Process Engineering Intern - Summer,,https://www.linkedin.com/jobs/view/4316345492,2025-10-17,True
+Software Engineering,University Corporation for Atmospheric Research,2026 NSF SOARS® First-Year Protege,US,https://www.indeed.com/viewjob?jk=2a8e3dcaabf6fa59,2025-10-20,True
+Software Engineering,Vast,2026 Summer Internship - Mechanical/Aerospace Engineering,"Long Beach, CA",https://www.linkedin.com/jobs/view/4296408879,2025-10-18,True
+Software Engineering,American Tower,Summer 2026 Engineering Intern,"Cary, NC",https://www.linkedin.com/jobs/view/4296139726,2025-10-18,True
+Software Engineering,Lensa,"Software Engineering Summer Intern, Customer Decision Hub","Watertown, MA",https://www.linkedin.com/jobs/view/4317062472,2025-10-20,True
+Software Engineering,Henkel,Engineering Intern – Summer 2026,"Cleveland, OH",https://www.linkedin.com/jobs/view/4296646121,2025-10-20,True
+Software Engineering,FoundStudy,Maintenance Supervisor/Technician,"New York, NY, US",https://www.indeed.com/viewjob?jk=108504008aedafae,2025-10-20,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"San Diego, CA, US",https://www.indeed.com/viewjob?jk=8da184e1fc8539ba,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Grand Rapids, MI, US",https://www.indeed.com/viewjob?jk=8c2aa032762b9a33,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Oakland, CA, US",https://www.indeed.com/viewjob?jk=b9474371ac42c631,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Detroit, MI, US",https://www.indeed.com/viewjob?jk=050971a23613887e,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"San Francisco, CA, US",https://www.indeed.com/viewjob?jk=b984a5b7d4435d1f,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Anaheim, CA, US",https://www.indeed.com/viewjob?jk=f350f43040ee604c,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Sacramento, CA, US",https://www.indeed.com/viewjob?jk=6b192ec9590b05f5,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Los Angeles, CA, US",https://www.indeed.com/viewjob?jk=8332fe8690b66fcf,2025-10-19,True
+Software Engineering,DEGENKOLB ENGINEERS,Structural Engineer | Intern,"Seattle, WA, US",https://www.indeed.com/viewjob?jk=064d9e465778bda6,2025-10-19,True
+Software Engineering,City Of Bellevue,"Senior Engineer, Office of the Grand Connection","Bellevue, WA, US",https://www.indeed.com/viewjob?jk=9f358d7fbb10b0c3,2025-10-17,True
+Software Engineering,Jobs via Dice,Systems Engineer (Airborne Radar & Converged Sensors) - Intern,"Liverpool, NY",https://www.linkedin.com/jobs/view/4312195723,2025-10-18,True
+Software Engineering,Jobs via Dice,Systems Engineer (Integration and Test) - Intern,"Moorestown, NJ",https://www.linkedin.com/jobs/view/4312195729,2025-10-18,True
+Software Engineering,"ADMA Biologics, Inc.","Intern, Engineer","Boca Raton, FL",https://www.linkedin.com/jobs/view/4316343148,2025-10-17,True
+Software Engineering,Peraton,UI Software Engineer,"Annapolis Junction, MD",https://www.linkedin.com/jobs/view/4315766851,2025-10-17,True
+Software Engineering,Motion,Marketing Technology Intern,"Birmingham, AL",https://www.linkedin.com/jobs/view/4296647629,2025-10-20,True
+Embedded Systems,Life Fitness  / Hammer Strength,Embedded Software Engineering Intern,"Schaumburg, IL",https://www.linkedin.com/jobs/view/4313391484,2025-10-17,True
+AI,XCimer Energy,Program Planning and Controls Specialist,"Denver, CO, US",https://www.indeed.com/viewjob?jk=ba43c66c3334fd6f,2025-10-20,TRUE
+AI,Microsoft,Research Intern - AI Hardware,"Redmond, WA, US",https://www.indeed.com/viewjob?jk=74ff629a096a9084,2025-10-20,TRUE
+AI,Oracle,Advanced Degree Software Engineer Intern - Database Technologies,US,https://www.indeed.com/viewjob?jk=f7244d232021f3ed,2025-10-20,TRUE
+AI,Lenovo,Communications & Media Intern - Summer 2026,"Morrisville, NC, US",https://www.indeed.com/viewjob?jk=88f091dae88eb09c,2025-10-20,TRUE
+AI,Lenovo,Customer Experience Sampling Intern - Summer 2026,"Morrisville, NC, US",https://www.indeed.com/viewjob?jk=a643b5b5e8442122,2025-10-20,TRUE
+AI,BillionToOne,Oncology AI Associate Intern,"Menlo Park, CA, US",https://www.indeed.com/viewjob?jk=e7a02c7fc228bda9,2025-10-20,TRUE
+AI,Ace Hardware,"Retail Training Curriculum Development Internship- Summer 2026, Full Time (Paid/12 Weeks)","Oak Brook, IL, US",https://www.indeed.com/viewjob?jk=0fedae15c219ea4f,2025-10-20,TRUE
+AI,First Solar,Manager- Controls Engineering USA,US,https://www.indeed.com/viewjob?jk=21622dcb318068aa,2025-10-20,TRUE
+AI,Lensa,Internal IT Intern - Data - 2026,"Edwardsville, IL",https://www.linkedin.com/jobs/view/4316852959,2025-10-19,TRUE
+AI,Microsoft,Research Intern - AI Hardware,"Redmond, WA",https://www.linkedin.com/jobs/view/4317523737,2025-10-21,TRUE
+AI,Lensa,2026 Intern: Research Scientist - AI-powered Automation,"Cambridge, MA",https://www.linkedin.com/jobs/view/4317580413,2025-10-21,TRUE
+AI,Micron Technology,Intern - Hardware Validation Engineer,"Boise, ID",https://www.linkedin.com/jobs/view/4306660502,2025-10-21,TRUE
+AI,Wayve,"Research Scientist Intern, Embodied Foundation Models (Data, Modeling, & Reasoning)","Sunnyvale, CA",https://www.linkedin.com/jobs/view/4314917408,2025-10-21,TRUE
+AI,Lensa,Internal IT Intern - Infrastructure - 2026,"St Louis, MO",https://www.linkedin.com/jobs/view/4317568685,2025-10-21,TRUE
+AI,Intuit,Principal Research Scientist,"Mountain View, CA, US",https://www.indeed.com/viewjob?jk=7fb1979fa5fed95e,2025-10-20,TRUE
+AI,Tennessee Valley Authority,Spring 2026 Internship/Co-Op (Engineering),"Memphis, TN, US",https://www.indeed.com/viewjob?jk=5a595c04391577c2,2025-10-20,TRUE
+AI,Tennessee Valley Authority,Spring 2026 Internship/Co-Op (Engineering),"Starkville, MS, US",https://www.indeed.com/viewjob?jk=b1380779a1f3d90d,2025-10-20,TRUE
+AI,Tennessee Valley Authority,Summer 2026 Internship/Co-Op (Engineering),US,https://www.indeed.com/viewjob?jk=e8fa2918b293d691,2025-10-20,TRUE
+AI,SLB,Technology Intern,"Location, WV",https://www.linkedin.com/jobs/view/4295390664,2025-10-18,TRUE
+AI,Skyryse,"Flight Performance Engineering Intern, AI (Summer 2026)","El Segundo, CA",https://www.linkedin.com/jobs/view/4314900404,2025-10-21,TRUE
+AI,WellNest,Computer Vision Internship (Object Recognition & Behavioral Analysis),,https://www.linkedin.com/jobs/view/4317536560,2025-10-21,TRUE
+AI,Boom Supersonic,Software Engineering Intern,"Centennial, CO",https://www.linkedin.com/jobs/view/4317360797,2025-10-21,TRUE
+AI,"Hyundai America Technical Center, Inc. (HATCI)",ADAS Software Engineer Intern (Internship - Summer 2026),"Superior, MI",https://www.linkedin.com/jobs/view/4314915120,2025-10-21,TRUE
+FPGA,Lockheed Martin,Test Engineer Intern,"Orlando, FL, US",https://www.indeed.com/viewjob?jk=f07c5323a81514f4,2025-10-20,TRUE
+FPGA,"Moog, Inc","Intern, Design Engineering","Torrance, CA, US",https://www.indeed.com/viewjob?jk=39da31e6dc5673c1,2025-10-20,TRUE
+FPGA,Parsons,Embedded System RF Engineer Internship (Summer 2026),"Huntsville, AL, US",https://www.indeed.com/viewjob?jk=b65a56ff70cf8af1,2025-10-20,TRUE
+FPGA,Seagate Technology,VLSI Design and Verification Engineer Intern - Summer 2026,"Longmont, CO, US",https://www.indeed.com/viewjob?jk=732130c32784ee5d,2025-10-20,TRUE
+FPGA,Georgia Tech Research Institute,Digital Systems Intern - Spring 2026 - SEAL,"Smyrna, GA",https://www.linkedin.com/jobs/view/4296655371,2025-10-19,TRUE
+FPGA,AV,Summer 2026 Electrical Engineering Intern,"Simi Valley, CA",https://www.linkedin.com/jobs/view/4296131518,2025-10-18,TRUE
+FPGA,AV,Summer 2026 Electrical Engineering Intern,"Petaluma, CA",https://www.linkedin.com/jobs/view/4296131517,2025-10-18,TRUE
+FPGA,AV,Summer 2026 Electrical Engineering Intern,"Melbourne, FL",https://www.linkedin.com/jobs/view/4296127682,2025-10-18,TRUE
+FPGA,Moog Inc.,"Intern, Design Engineering","Torrance, CA",https://www.linkedin.com/jobs/view/4317378070,2025-10-21,TRUE
+FPGA,Parsons Corporation,Embedded System RF Engineer Internship (Summer 2026),"Huntsville, AL",https://www.linkedin.com/jobs/view/4317385416,2025-10-21,TRUE
+FPGA,Airspan Networks,UVM SystemVerilog Verification Engineer,"Warren, NJ",https://www.linkedin.com/jobs/view/4277298461,2025-10-21,TRUE
+FPGA,WayUp,"AV, Spring 2026 Electrical Engineering Intern - Application via WayUp","Petaluma, CA",https://www.linkedin.com/jobs/view/4315898068,2025-10-21,TRUE
+FPGA,Infineon Technologies,Internship – Mixed Signal IC Verification Engineer,"Andover, MA",https://www.linkedin.com/jobs/view/4293956690,2025-10-20,TRUE
+FPGA,Infineon Technologies,Internship - Validation Engineer,"Andover, MA",https://www.linkedin.com/jobs/view/4280404506,2025-10-20,TRUE
+FPGA,Seagate Technology,VLSI Design and Verification Engineer Intern - Summer 2026,"Longmont, CO",https://www.linkedin.com/jobs/view/4314907725,2025-10-21,TRUE
+Semiconductors,"Lake Shore Cryotronics, Inc.",Applications Scientist Intern,"Westerville, OH, US",https://www.indeed.com/viewjob?jk=b77ed057b316b75b,2025-10-20,TRUE
+Semiconductors,MACOM Technology Solutions,Semiconductor Process & Device Failure Analysis Intern,"Durham, NC, US",https://www.indeed.com/viewjob?jk=cf0ce35ebbd5354a,2025-10-20,TRUE
+Semiconductors,KLA,Technical Support Engineer,"Chandler, AZ, US",https://www.indeed.com/viewjob?jk=62b7a5543cbb366c,2025-10-20,TRUE
+Semiconductors,Micron Technology,Intern - Process Technician,"Manassas, VA, US",https://www.indeed.com/viewjob?jk=250e682397c4d8e2,2025-10-20,TRUE
+Semiconductors,Micron Technology,Intern - ATE Process Engineer ID1,"Boise, ID, US",https://www.indeed.com/viewjob?jk=d5a3b7479524d3a5,2025-10-20,TRUE
+Semiconductors,Arizona State University,Semiconductor Gas/Chemical Operations Technician Specialist,"Mesa, AZ, US",https://www.indeed.com/viewjob?jk=5a7b3d308bb47029,2025-10-20,TRUE
+Semiconductors,Infineon Technologies,Internship - Device Technology,"Andover, MA",https://www.linkedin.com/jobs/view/4299192993,2025-10-20,TRUE
+Semiconductors,Keysight Technologies,Full Stack Intern,"Santa Rosa, CA",https://www.linkedin.com/jobs/view/4314940110,2025-10-21,TRUE
+Semiconductors,MACOM,Semiconductor Process & Device Failure Analysis Intern,"Durham, NC",https://www.linkedin.com/jobs/view/4317365682,2025-10-21,TRUE
+Semiconductors,Lake Shore Cryotronics,Supply Chain Intern,"Westerville, OH",https://www.linkedin.com/jobs/view/4316354664,2025-10-21,TRUE
+Semiconductors,Skyworks Solutions,IC Design - Summer/Fall Co-Op (June '26 - Dec '26),"Andover, MA, US",https://www.indeed.com/viewjob?jk=bec55c91451aea05,2025-10-18,TRUE
+Software Engineering,NIKE,"Supply Chain, Sustainability and Planning Analytics","Beaverton, OR, US",https://www.indeed.com/viewjob?jk=d35142379b9451ad,2025-10-21,TRUE
+Software Engineering,Pegasystems,Curriculum Developer Intern,"Waltham, MA, US",https://www.indeed.com/viewjob?jk=f91f9273d307b736,2025-10-21,TRUE
+Software Engineering,Pegasystems,"Software Engineering Intern, Customer Decision Hub","Waltham, MA, US",https://www.indeed.com/viewjob?jk=f74b825e5118a433,2025-10-21,TRUE
+Software Engineering,Pegasystems,Software Engineering Intern,"Waltham, MA, US",https://www.indeed.com/viewjob?jk=3df6467ddd32fa7e,2025-10-21,TRUE
+Software Engineering,Pegasystems,Associate Software Engineer Intern,"Waltham, MA, US",https://www.indeed.com/viewjob?jk=f81c3cc9c87c627c,2025-10-21,TRUE
+Software Engineering,Wells Fargo,2026 Technology Summer Internship - Early Careers (Chief Data Office Intern),"Charlotte, NC, US",https://www.indeed.com/viewjob?jk=a8c05a5455335061,2025-10-21,TRUE
+Software Engineering,MasTec Inc,Estimating Principal,"Phoenix, AZ, US",https://www.indeed.com/viewjob?jk=6fea6260446846a2,2025-10-20,TRUE
+Software Engineering,Wanzek Construction,Estimating Principal,"Phoenix, AZ, US",https://www.indeed.com/viewjob?jk=ee00a6d6e5717663,2025-10-20,TRUE
+Software Engineering,Suncore Construction and Materials,Construction Intern / Meridian,"Meridian, ID, US",https://www.indeed.com/viewjob?jk=4e23f8281a038ebc,2025-10-20,TRUE
+Software Engineering,Lockheed Martin,Satellite Systems Engineering Intern,"Fort Belvoir, VA, US",https://www.indeed.com/viewjob?jk=14d62c870d4c2ef5,2025-10-20,TRUE
+Software Engineering,Lockheed Martin,Mechanical Engineer Intern,"Moorestown, NJ, US",https://www.indeed.com/viewjob?jk=f4039b8f90684a64,2025-10-20,TRUE
+Software Engineering,"Carollo Engineers, Inc.",Civil/Environmental Engineering Intern,"Portland, OR, US",https://www.indeed.com/viewjob?jk=e273efbe074bf997,2025-10-20,TRUE
+Software Engineering,"Carollo Engineers, Inc.",Civil/Environmental Engineering Intern,"Los Angeles, CA, US",https://www.indeed.com/viewjob?jk=70ef14598ff1d79e,2025-10-20,TRUE
+Software Engineering,"Daniel Defense, LLC",STUDENT - IT SOFTWARE ENGINEERING CO-OP,"Black Creek, GA",https://www.linkedin.com/jobs/view/4316660695,2025-10-20,TRUE
+Software Engineering,American Tower,Engineering Co Op (Spring 2026),"Cary, NC",https://www.linkedin.com/jobs/view/4296148034,2025-10-18,TRUE
+Software Engineering,ABB,Lean Challenge Intern Selmer- Summer 2026,"Selmer, TN",https://www.linkedin.com/jobs/view/4308138957,2025-10-18,TRUE
+Software Engineering,HII,NUMERICAL CONTROL PROGRAMMER SKILLBRIDGE INTERN,"Newport News, VA",https://www.linkedin.com/jobs/view/4316630151,2025-10-21,TRUE
+Software Engineering,Hexagon Manufacturing Intelligence,"Applications Engineering Intern (Irvine, CA)","Irvine, CA",https://www.linkedin.com/jobs/view/4314911158,2025-10-21,TRUE
+Software Engineering,AVEVA,Software Developer Intern- US,"Scottsdale, AZ",https://www.linkedin.com/jobs/view/4296333056,2025-10-19,TRUE
+Software Engineering,healcovery,Software Engineer Intern,,https://www.linkedin.com/jobs/view/4307822253,2025-10-19,TRUE
+Software Engineering,AVEVA,Software Developer Intern- US,"Philadelphia, PA",https://www.linkedin.com/jobs/view/4296332365,2025-10-18,TRUE
+Software Engineering,Clever Inc.,Software Engineer Intern,"San Francisco, CA",https://www.linkedin.com/jobs/view/4317338862,2025-10-21,TRUE
+Software Engineering,Ameritas,Software Developer Intern - Packaged Systems,"Lincoln, NE",https://www.linkedin.com/jobs/view/4317543357,2025-10-21,TRUE
+Software Engineering,Eastern Municipal Water District,Senior Engineering Geologist,"Perris, CA, US",https://www.indeed.com/viewjob?jk=efeccba40f2fa005,2025-10-21,TRUE
+Software Engineering,HPE Juniper Networking,Hardware Design Engineering Intern,"Spring, TX, US",https://www.indeed.com/viewjob?jk=45266917653d3dca,2025-10-21,TRUE
+Software Engineering,Hewlett Packard Enterprise | HPE,Hardware Design Engineering Intern,"Spring, TX, US",https://www.indeed.com/viewjob?jk=f8625f7d510a454b,2025-10-20,TRUE
+Software Engineering,Meta,"Research Scientist Intern, Audio, Numerical Acoustics (PhD)","Redmond, WA, US",https://www.indeed.com/viewjob?jk=bc64b39e5754c2c1,2025-10-19,TRUE
+Software Engineering,Boston Consulting Group,"AI Engineer, Internship, Campus, United States - BCG X","Los Angeles, CA, US",https://www.indeed.com/viewjob?jk=e0651cafbac439dc,2025-10-07,TRUE
+Software Engineering,Boston Consulting Group,"AI Engineer, Internship, Campus, United States - BCG X","Chicago, IL, US",https://www.indeed.com/viewjob?jk=788169bad0f88550,2025-10-07,TRUE
+Software Engineering,Boston Consulting Group,"AI Engineer, Internship, Campus, United States - BCG X","New York, NY, US",https://www.indeed.com/viewjob?jk=a8b45288d287637f,2025-10-07,TRUE
+Software Engineering,Intuit,Summer 2026 Full Stack Engineering Intern,"Atlanta, GA",https://www.linkedin.com/jobs/view/4317507061,2025-10-21,TRUE
+Software Engineering,Intuit,Summer 2026 Backend Engineering Intern,"Atlanta, GA",https://www.linkedin.com/jobs/view/4317393857,2025-10-21,TRUE
+Software Engineering,Ozcorp Scientific,Ai-Native Software Engineer Intern,,https://www.linkedin.com/jobs/view/4317534607,2025-10-21,TRUE
+Software Engineering,Intuit,Summer 2026 Front End Engineering Intern,"Atlanta, GA",https://www.linkedin.com/jobs/view/4317394790,2025-10-21,TRUE
+Software Engineering,IDEMIA,Marketing & Communications Internship - Summer 2026,"Reston, VA, US",https://www.indeed.com/viewjob?jk=61f9f44ad7001e15,2025-10-20,TRUE
+Software Engineering,IDEMIA,Human Resources Internship - Summer 2026,"Bedford, MA, US",https://www.indeed.com/viewjob?jk=ccdb431fdcbb41cd,2025-10-20,TRUE
+Software Engineering,La Jolla Playhouse,Marketing Assistant,"La Jolla, CA, US",https://www.indeed.com/viewjob?jk=a03f19bbb407b297,2025-10-20,TRUE
+Software Engineering,MD Anderson Cancer Center,Research Intern - School of Health Professions,"Houston, TX, US",https://www.indeed.com/viewjob?jk=590af751cbe49d11,2025-10-19,TRUE
+Software Engineering,NJ Department of Environmental Protection,Product Development Intern - WLM-2025-3i,"Trenton, NJ",https://www.linkedin.com/jobs/view/4314910718,2025-10-20,TRUE
+Software Engineering,Primerica,Product Development Intern - WLM-2025-3i,"Trenton, NJ",https://www.linkedin.com/jobs/view/4317524476,2025-10-21,TRUE
+Embedded Systems,Corning,Development Co-Op - Spring 2026,"Corning, NY, US",https://www.indeed.com/viewjob?jk=ee11ff4330db2860,2025-10-20,TRUE
+Embedded Systems,ursa major,Senior Build Reliability Engineer,"Berthoud, CO, US",https://www.indeed.com/viewjob?jk=3e65350d0919c0ed,2025-10-20,TRUE
+Embedded Systems,Two Six Technologies,Skillbridge Internship - Operational Systems Administrator,"Arlington, VA, US",https://www.indeed.com/viewjob?jk=2960212d34dd7cfa,2025-10-20,TRUE
+Embedded Systems,MKS Instruments,2026 Spring-Summer R&D Engineer Undergraduate Intern,"Methuen, MA, US",https://www.indeed.com/viewjob?jk=0ae261aef253b819,2025-10-20,TRUE
+Embedded Systems,Verizon,Thurgood Marshall Immersion Program: Verizon Global Services Summer internship 2026,"Basking Ridge, NJ, US",https://www.indeed.com/viewjob?jk=ddc51955b5906c93,2025-10-20,TRUE
+Embedded Systems,Labcorp,Intern - Junior Back-end Software Developer,"Durham, NC, US",https://www.indeed.com/viewjob?jk=81a6a9d464db500c,2025-10-19,TRUE
+Embedded Systems,San Diego Padres,"Intern, Information Technology","San Diego, CA",https://www.linkedin.com/jobs/view/4317810005,2025-10-21,TRUE
+Embedded Systems,Skyryse,"Software Engineer Intern, Tools (Summer 2026)","El Segundo, CA",https://www.linkedin.com/jobs/view/4314399395,2025-10-21,TRUE
+Embedded Systems,Lensa,Internships in Computer Science or Software Engineering,"Aberdeen, MD",https://www.linkedin.com/jobs/view/4317590237,2025-10-21,TRUE
+Embedded Systems,Sartorius,"Software Engineer Intern - Onsite - Fremont, CA","Fremont, CA",https://www.linkedin.com/jobs/view/4317398186,2025-10-21,TRUE
+Embedded Systems,Sandhills Global,Software Development Intern,"Lincoln, NE",https://www.linkedin.com/jobs/view/3988440579,2025-10-21,TRUE
+Embedded Systems,ExecutivePlacements.com,"Software Engineer, Intern","San Francisco, CA",https://www.linkedin.com/jobs/view/4317090094,2025-10-21,TRUE
+Embedded Systems,Hypertherm,Intern - Electrical Design Engineering,"Lebanon, NH, US",https://www.indeed.com/viewjob?jk=3172593ea8837fed,2025-10-20,TRUE
+Embedded Systems,Allegion,Summer Intern – Mobile Engineer,"Golden, CO",https://www.linkedin.com/jobs/view/4317537260,2025-10-21,TRUE
