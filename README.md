@@ -15,7 +15,7 @@ Current Cornell IEEE Maintenance Team:
 
 **Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-6611-blue?style=flat)
+![Total Listings](https://img.shields.io/badge/Total%20Listings-6624-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -35,11 +35,14 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [General Motors](https://www.google.com/search?q=General+Motors) | 2026 Summer Intern – AI/ML Software Engineering Intern - Simulation Core (Master's) | Sunnyvale, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4343467241) | Jan 04 2026 |
+| [ATI](https://www.google.com/search?q=ATI) | R&D Engineering Intern: Machine Learning Research | Monroe, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4332960065) | Jan 04 2026 |
 | [Lensa](https://lensa.com/) | Hardware Developer Engineer Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349394109) | Jan 03 2026 |
 | [Jobs via Dice](https://www.dice.com/) | Data and AI Intern 2026 | Durham, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329935650) | Jan 03 2026 |
 | [Freeform](https://www.google.com/search?q=Freeform) | Additive Engineering Internship/Co-op (Spring, Summer, Fall 2026) | Los Angeles, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=a8ac253001b5ddd8) | Jan 03 2026 |
 | [Lensa](https://lensa.com/) | Hardware Systems Engineer Intern | Menlo Park, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4354321099) | Jan 03 2026 |
 | [Lensa](https://lensa.com/) | 5033 Firmware Engineer Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4346987717) | Jan 03 2026 |
+| [Medtronic](https://www.medtronic.com/us-en/about/careers.html) | Principal Medical Device Software Engineer (Python/C++) | Newton, MA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=04c96f4372d9c317) | Jan 03 2026 |
 | [Jobs via Dice](https://www.dice.com/) | Hardware Developer Engineer Intern | Tucson, AZ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329982215) | Jan 02 2026 |
 | [Jobs via Dice](https://www.dice.com/) | Software Developer Intern | Tucson, AZ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329814036) | Jan 02 2026 |
 | [Jobs via Dice](https://www.dice.com/) | Technical Support Intern - Hardware and Software Products | Poughkeepsie, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329779279) | Jan 02 2026 |
@@ -1713,6 +1716,9 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [](https://github.com/IEEEAtCornell/2026-ECE-Internships) | Embedded Systems, Sensors & Power Engineer Intern | Detroit, MI, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=984686470ddd6639) | Jan 04 2026 |
+| [IDEXX](https://www.google.com/search?q=IDEXX) | Embedded Software Engineer Internship | Westbrook, ME | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349319812) | Jan 04 2026 |
+| [Lensa](https://lensa.com/) | Intern - Software Engineer (Controls) | Minnetonka, MN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349309842) | Jan 04 2026 |
 | [Komatsu](https://www.google.com/search?q=Komatsu) | Embedded Systems Intern | Warrendale, PA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349380967) | Jan 03 2026 |
 | [Lensa](https://lensa.com/) | Software Engineer Embedded/Network Systems I (Intern) - United States | Milpitas, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349374876) | Jan 03 2026 |
 | [](https://github.com/IEEEAtCornell/2026-ECE-Internships) | General Engineer/Physical Scientist | Oak Ridge, TN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=7a9d1d147ce21b81) | Jan 02 2026 |
@@ -4593,14 +4599,21 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Giga](https://www.google.com/search?q=Giga) | Software Engineer Intern (Summer 2026) | San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4346977986) | Jan 04 2026 |
+| [Peraton](https://careers.peraton.com/) | Systems Engineer Advisor | Washington, DC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4301974917) | Jan 04 2026 |
 | [Lensa](https://lensa.com/) | Software Developer Internship 2026 | Austin, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4354321008) | Jan 03 2026 |
 | [Garner Health, LLC](https://www.google.com/search?q=Garner+Health,+LLC) | Full Stack Engineering Intern | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4330004767) | Jan 03 2026 |
 | [Lensa](https://lensa.com/) | mRNA Systems Engineering - Vaccine Summer - Fall 2026 Co-op | Watertown, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4354330384) | Jan 03 2026 |
 | [Lensa](https://lensa.com/) | National Security Solutions (NSS) Systems Engineering Internship | Chantilly, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4349336765) | Jan 03 2026 |
 | [TikTok](https://www.google.com/search?q=TikTok) | Backend Software Engineer Intern (TikTok-PGC-UCP) - 2026 Summer(BS/MS) | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329917617) | Jan 03 2026 |
+| [Peraton](https://careers.peraton.com/) | Platform Engineer (ServiceNow/ECP) | Washington, DC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329929070) | Jan 03 2026 |
+| [Jobs via Dice](https://www.dice.com/) | Software Developer Intern 2026- New York | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329932845) | Jan 02 2026 |
+| [Peraton](https://careers.peraton.com/) | Tools Engineer | Washington, DC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329897699) | Jan 02 2026 |
+| [Jobs via Dice](https://www.dice.com/) | Systems Engineer | McLean, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329883324) | Jan 02 2026 |
 | [Ruoff Mortgage](https://www.google.com/search?q=Ruoff+Mortgage) | Software Development Intern | Fort Wayne, IN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4346699943) | Jan 01 2026 |
 | [The Church of Jesus Christ of Latter-day Saints](https://www.google.com/search?q=The+Church+of+Jesus+Christ+of+Latter-day+Saints) | 2026 IT Engineer paid intern (May and August hires) | Riverton, UT | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329842911) | Jan 01 2026 |
 | [Peraton](https://careers.peraton.com/) | Azure Cloud DevOps Engineer |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329841382) | Jan 01 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Systems/Mechanical/Aerospace Engineer | McLean, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4337083285) | Jan 01 2026 |
 | [Johnson, Mirmiran & Thompson, Inc.](https://www.google.com/search?q=Johnson,+Mirmiran+&+Thompson,+Inc.) | Fire Protection Engineering Intern | Virginia Beach, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=d6d1ee9dec063100) | Dec 30 2025 |
 | [Clark Nexsen](https://www.google.com/search?q=Clark+Nexsen) | Fire Protection Engineering Intern | Virginia Beach, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=2bad8bb4c2a7f5f7) | Dec 30 2025 |
 | [chaser](https://www.google.com/search?q=chaser) | Software Engineer Intern | Texas, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4329661831) | Dec 30 2025 |
@@ -6673,4 +6686,4 @@ Current Cornell IEEE Maintenance Team:
 | [Boston Scientific](https://www.google.com/search?q=Boston+Scientific) | Manufacturing Technician Intern 2026 | US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=22f1279b3cd5b1fb) | Feb 27 2025 |
 
 ---
-_Last updated on `Jan 03, 2026`. Please verify application deadlines and availability with company websites._
+_Last updated on `Jan 04, 2026`. Please verify application deadlines and availability with company websites._
