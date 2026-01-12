@@ -7006,27 +7006,57 @@ Embedded Systems,Amazon,"Software Development Engineer Internship - Amazon Leo, 
 Embedded Systems,,Systems Engineer I - Intern - Construction,"Atlanta, GA, US",https://www.indeed.com/viewjob?jk=ef89da8fdfa40993,2026-01-09,True
 Embedded Systems,,Systems Engineer I - Intern - Construction,"Portland, OR, US",https://www.indeed.com/viewjob?jk=2605bccaa13ffbed,2026-01-09,True
 Embedded Systems,Lensa,Cyber New Professional,"Bedford, MA",https://www.linkedin.com/jobs/view/4359911930,2026-01-10,True
-AI,Meta,"ASIC Engineer Intern, Architecture","Sunnyvale, CA, US",https://www.indeed.com/viewjob?jk=31afef2b24a9247c,2026-01-08,TRUE
-AI,KLA,Analytics Actuarial Intern,"Milpitas, CA",https://www.linkedin.com/jobs/view/4344328460,2026-01-08,TRUE
-AI,MITRE,Generative AI Engineer,"Bedford, MA",https://www.linkedin.com/jobs/view/4345254326,2026-01-11,TRUE
-AI,National Renewable Energy Laboratory,Graduate PhD Student (Year-Round) Machine Learning Applications for Cyber-Physical Power System Operations Intern,"Golden, CO, US",https://www.indeed.com/viewjob?jk=65c1f19589acb166,2026-01-09,TRUE
-AI,Lensa,AI Engineer Intern,"Concord, NH",https://www.linkedin.com/jobs/view/4359759395,2026-01-11,TRUE
-FPGA,Meta,"ASIC Engineer Intern, Architecture","Sunnyvale, CA",https://www.linkedin.com/jobs/view/4352377765,2026-01-11,TRUE
-FPGA,GlobalFoundries,Circuit Design Intern (Summer 2026),"Austin, TX",https://www.linkedin.com/jobs/view/4345542622,2026-01-11,TRUE
-Semiconductors,KLA,Associate Test Engineer - NPI,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=d264ed5b787afeae,2026-01-09,TRUE
-Semiconductors,KLA,R&D Intern,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=ffd0879796a52590,2026-01-09,TRUE
-Semiconductors,KLA,Algorithm Research Intern,"Milpitas, CA, US",https://www.indeed.com/viewjob?jk=3af0862231ca78ff,2026-01-09,TRUE
-Semiconductors,KLA,Tool Quality Auditor,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=f0ea9cc72fda5193,2026-01-09,TRUE
-Semiconductors,KLA,Quality Chemical Engineer,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=7e035fe2eae18f44,2026-01-09,TRUE
-Semiconductors,KLA,Product Development Engineering Intern,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=4d40f4e12e1f516a,2026-01-09,TRUE
-Software Engineering,Typeface,Software Engineer Intern,"Bellevue, WA",https://www.linkedin.com/jobs/view/4331966816,2026-01-09,TRUE
-Software Engineering,Haystack,Software Engineer Intern,,https://www.linkedin.com/jobs/view/4330869010,2026-01-08,TRUE
-Software Engineering,Premier Inc.,Software Engineer Intern,"Charlotte, NC",https://www.linkedin.com/jobs/view/4359402228,2026-01-08,TRUE
-Software Engineering,Amazon.com,Cloud Support Engineer Internship - 2026 (US),"Herndon, VA, US",https://www.indeed.com/viewjob?jk=b6068f9504a4edae,2025-11-21,TRUE
-Software Engineering,LANXESS,Process Engineering Intern,"El Dorado, AR, US",https://www.indeed.com/viewjob?jk=46807ef0ff2809dc,2026-01-10,TRUE
-Software Engineering,Medtronic,"Sales Representative - Pelvic Health- Raleigh, NC","Raleigh, NC, US",https://www.indeed.com/viewjob?jk=b86fc528d51df088,2026-01-10,TRUE
-Software Engineering,Medtronic,"Clinical Specialist Pelvic Health- Greenville, SC","Greenville, SC, US",https://www.indeed.com/viewjob?jk=5c9a13367d20adb7,2026-01-10,TRUE
-Software Engineering,DLB Associates,Systems Engineer I - Intern - Construction,"Portland, OR",https://www.linkedin.com/jobs/view/4359782668,2026-01-10,TRUE
-Software Engineering,"A10 Networks, Inc",Software Engineering Intern — AI ADC,,https://www.linkedin.com/jobs/view/4344550482,2026-01-08,TRUE
-Embedded Systems,Lensa,Software Engineering Intern,"Cypress, CA",https://www.linkedin.com/jobs/view/4360683168,2026-01-11,TRUE
-Embedded Systems,Lensa,Internships in Electrical or Computer Engineering,"Shrewsbury, NJ",https://www.linkedin.com/jobs/view/4359915644,2026-01-11,TRUE
+AI,Meta,"ASIC Engineer Intern, Architecture","Sunnyvale, CA, US",https://www.indeed.com/viewjob?jk=31afef2b24a9247c,2026-01-08,True
+AI,KLA,Analytics Actuarial Intern,"Milpitas, CA",https://www.linkedin.com/jobs/view/4344328460,2026-01-08,True
+AI,MITRE,Generative AI Engineer,"Bedford, MA",https://www.linkedin.com/jobs/view/4345254326,2026-01-11,True
+AI,National Renewable Energy Laboratory,Graduate PhD Student (Year-Round) Machine Learning Applications for Cyber-Physical Power System Operations Intern,"Golden, CO, US",https://www.indeed.com/viewjob?jk=65c1f19589acb166,2026-01-09,True
+AI,Lensa,AI Engineer Intern,"Concord, NH",https://www.linkedin.com/jobs/view/4359759395,2026-01-11,True
+FPGA,Meta,"ASIC Engineer Intern, Architecture","Sunnyvale, CA",https://www.linkedin.com/jobs/view/4352377765,2026-01-11,True
+FPGA,GlobalFoundries,Circuit Design Intern (Summer 2026),"Austin, TX",https://www.linkedin.com/jobs/view/4345542622,2026-01-11,True
+Semiconductors,KLA,Associate Test Engineer - NPI,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=d264ed5b787afeae,2026-01-09,True
+Semiconductors,KLA,R&D Intern,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=ffd0879796a52590,2026-01-09,True
+Semiconductors,KLA,Algorithm Research Intern,"Milpitas, CA, US",https://www.indeed.com/viewjob?jk=3af0862231ca78ff,2026-01-09,True
+Semiconductors,KLA,Tool Quality Auditor,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=f0ea9cc72fda5193,2026-01-09,True
+Semiconductors,KLA,Quality Chemical Engineer,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=7e035fe2eae18f44,2026-01-09,True
+Semiconductors,KLA,Product Development Engineering Intern,"Totowa, NJ, US",https://www.indeed.com/viewjob?jk=4d40f4e12e1f516a,2026-01-09,True
+Software Engineering,Typeface,Software Engineer Intern,"Bellevue, WA",https://www.linkedin.com/jobs/view/4331966816,2026-01-09,True
+Software Engineering,Haystack,Software Engineer Intern,,https://www.linkedin.com/jobs/view/4330869010,2026-01-08,True
+Software Engineering,Premier Inc.,Software Engineer Intern,"Charlotte, NC",https://www.linkedin.com/jobs/view/4359402228,2026-01-08,True
+Software Engineering,Amazon.com,Cloud Support Engineer Internship - 2026 (US),"Herndon, VA, US",https://www.indeed.com/viewjob?jk=b6068f9504a4edae,2025-11-21,True
+Software Engineering,LANXESS,Process Engineering Intern,"El Dorado, AR, US",https://www.indeed.com/viewjob?jk=46807ef0ff2809dc,2026-01-10,True
+Software Engineering,Medtronic,"Sales Representative - Pelvic Health- Raleigh, NC","Raleigh, NC, US",https://www.indeed.com/viewjob?jk=b86fc528d51df088,2026-01-10,True
+Software Engineering,Medtronic,"Clinical Specialist Pelvic Health- Greenville, SC","Greenville, SC, US",https://www.indeed.com/viewjob?jk=5c9a13367d20adb7,2026-01-10,True
+Software Engineering,DLB Associates,Systems Engineer I - Intern - Construction,"Portland, OR",https://www.linkedin.com/jobs/view/4359782668,2026-01-10,True
+Software Engineering,"A10 Networks, Inc",Software Engineering Intern — AI ADC,,https://www.linkedin.com/jobs/view/4344550482,2026-01-08,True
+Embedded Systems,Lensa,Software Engineering Intern,"Cypress, CA",https://www.linkedin.com/jobs/view/4360683168,2026-01-11,True
+Embedded Systems,Lensa,Internships in Electrical or Computer Engineering,"Shrewsbury, NJ",https://www.linkedin.com/jobs/view/4359915644,2026-01-11,True
+AI,Meshy LLC,Machine Learning Systems Intern,US,https://www.indeed.com/viewjob?jk=f551de74f2015218,2026-01-11,TRUE
+AI,HP,Enterprise Operations Engineering Internship,"Spring, TX",https://www.linkedin.com/jobs/view/4298110283,2026-01-10,TRUE
+AI,Meta,"Research Scientist Intern, AI Signal and Power Integrity","Redmond, WA",https://www.linkedin.com/jobs/view/4350285314,2026-01-09,TRUE
+AI,IBM,Data and AI Intern 2026,"Research Park, CA",https://www.linkedin.com/jobs/view/4345006438,2026-01-09,TRUE
+AI,IBM,Data and AI Intern 2026,"Armonk, NY",https://www.linkedin.com/jobs/view/4344966745,2026-01-09,TRUE
+AI,Skyworks Solutions,BAW / SAW Engineering Summer/Fall Co-Op,"Irvine, CA, US",https://www.indeed.com/viewjob?jk=07c7adc6a95a67ec,2026-01-11,TRUE
+FPGA,Parsons Corporation,RF Electrical/Hardware Engineer Intern Summer 2026,"Columbia, MD",https://www.linkedin.com/jobs/view/4359629322,2026-01-09,TRUE
+FPGA,HII,Hardware Engineering Intern 3 - 2026 1,"Roanoke, VA",https://www.linkedin.com/jobs/view/4361190882,2026-01-12,TRUE
+FPGA,HII,Software Engineering Intern 3 - 2026,"Roanoke, VA",https://www.linkedin.com/jobs/view/4360780837,2026-01-12,TRUE
+Semiconductors,Micron Technology,Intern - IT Data Center Engineer,"Boise, ID, US",https://www.indeed.com/viewjob?jk=53afd1563754a074,2026-01-12,TRUE
+Semiconductors,Micron Technology,Intern - Corporate Sustainability,"San Jose, CA",https://www.linkedin.com/jobs/view/4328270401,2026-01-10,TRUE
+Semiconductors,KLA,R&D Intern,"Totowa, NJ",https://www.linkedin.com/jobs/view/4352382376,2026-01-09,TRUE
+Semiconductors,"Skyworks Solutions, Inc.",BAW / SAW Engineering Summer/Fall Co-Op,"Irvine, CA",https://www.linkedin.com/jobs/view/4359907661,2026-01-12,TRUE
+Software Engineering,Panasonic Avionics Corporation,Intern-Software Engineering,"Beaverton, OR",https://www.linkedin.com/jobs/view/4328157000,2026-01-10,TRUE
+Software Engineering,Microsoft,Software Engineer - CTJ - Top Secret: Internship Opportunities,"Redmond, WA",https://www.linkedin.com/jobs/view/4359444525,2026-01-09,TRUE
+Software Engineering,Monarch Quantum,Software Engineering Intern,"San Diego, CA",https://www.linkedin.com/jobs/view/4359788371,2026-01-12,TRUE
+Software Engineering,LodgeLink,Graduate Intern Software Engineering,"Scottsdale, AZ",https://www.linkedin.com/jobs/view/4352650935,2026-01-12,TRUE
+Software Engineering,ExecutivePlacements.com,Web Developer Intern (Remote),"Denver, CO",https://www.linkedin.com/jobs/view/4360710520,2026-01-12,TRUE
+Software Engineering,SWIVEL,Software Engineering Intern,"Grand Rapids, MI",https://www.linkedin.com/jobs/view/4315337373,2026-01-12,TRUE
+Software Engineering,Obayashi Corporation,Internship/Co-Op (Estimator) Summer 2026,"Foster City, CA, US",https://www.indeed.com/viewjob?jk=71e736c932d8ecfe,2026-01-12,TRUE
+Software Engineering,CAPITOL AGGREGATES INC,Electrical Intern Summer 2026,"San Antonio, TX, US",https://www.indeed.com/viewjob?jk=fefa430f8f0b34a0,2026-01-12,TRUE
+Software Engineering,American Electric Power,"Electrical Designer Intern - Tulsa, OK","Tulsa, OK, US",https://www.indeed.com/viewjob?jk=1be7e3cd5ab3184e,2026-01-11,TRUE
+Software Engineering,DLB Associates,Systems Engineer I - Intern - Construction,"Atlanta, GA",https://www.linkedin.com/jobs/view/4360601948,2026-01-10,TRUE
+Software Engineering,Northrop Grumman,2026 Engineering Internship (GNC/SW/ME/SE) (Dulles VA/McLean VA) or (Baltimore MD) - R10218120,"Dulles, VA",https://www.linkedin.com/jobs/view/4360640596,2026-01-10,TRUE
+Software Engineering,Micron Technology,Intern - IT Data Center Engineer,"Boise, ID",https://www.linkedin.com/jobs/view/4332576116,2026-01-12,TRUE
+Software Engineering,TalentAlly,2026 Systems Engineering Internship - Linthicum MD,"Linthicum Heights, MD",https://www.linkedin.com/jobs/view/4345334386,2026-01-12,TRUE
+Embedded Systems,Arrowhead Pharmaceuticals,"Summer Intern, Innovation Engineering (Equipment & Automation)","Verona, WI, US",https://www.indeed.com/viewjob?jk=85e8cc226826dfeb,2026-01-12,TRUE
+Embedded Systems,Crane Aerospace & Electronics,Systems Engineering Intern- Summer 2026,"Lynnwood, WA",https://www.linkedin.com/jobs/view/4332546432,2026-01-12,TRUE
+Embedded Systems,Principal Financial Group,Software Engineer Internship (Summer 2026),"Charlotte, NC",https://www.linkedin.com/jobs/view/4359791305,2026-01-10,TRUE
+Embedded Systems,Neuralink,Software Engineer Intern,"Fremont, CA",https://www.linkedin.com/jobs/view/4282012575,2026-01-09,TRUE
