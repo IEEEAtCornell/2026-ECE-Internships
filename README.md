@@ -15,7 +15,7 @@ Current Cornell IEEE Maintenance Team:
 
 **Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-12325-blue?style=flat)
+![Total Listings](https://img.shields.io/badge/Total%20Listings-12404-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -35,6 +35,28 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [XPENG](https://www.google.com/search?q=XPENG) | AI Intern – VLA Deployment | Santa Clara, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410503217) | May 05 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Generative Artificial Intelligence Engineer | Bedford, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4404926337) | May 05 2026 |
+| [NVIDIA](https://www.nvidia.com/en-us/careers/) | Formal Verification Intern - Fall 2026 | Santa Clara, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408947048) | May 05 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Generative Artificial Intelligence Engineer | McLean, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4404924393) | May 05 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Generative Artificial Intelligence Engineer | Fort Meade, MD | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4404941075) | May 05 2026 |
+| [Cambium Learning Group](https://www.google.com/search?q=Cambium+Learning+Group) | Provisioning Technician Intern | Ann Arbor, MI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408642932) | May 05 2026 |
+| [United Imaging Intelligence](https://www.google.com/search?q=United+Imaging+Intelligence) | Software Engineering Intern | Burlington, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408953676) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Software Engineer, Data Platforms (Fall 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410244324) | May 05 2026 |
+| [iRhythm Technologies, Inc.](https://www.google.com/search?q=iRhythm+Technologies,+Inc.) | Embedded SDET CO-Op | San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408137117) | May 05 2026 |
+| [Sony](https://www.google.com/search?q=Sony) | Intern, Advanced Computer Graphics Research | Culver City, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4374531538) | May 05 2026 |
+| [TikTok](https://www.google.com/search?q=TikTok) | Research Scientist Intern (TikTok Recommendation-LLMs, RL, GenAI) - 2026 Start (PhD) | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4262549275) | May 05 2026 |
+| [Nutanix](https://www.google.com/search?q=Nutanix) | Software Engineering Intern (Summer 2026) | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410273034) | May 05 2026 |
+| [Westfalia](https://www.google.com/search?q=Westfalia) | Vision Guided Robotics Intern | York, PA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=552a658e2bdb01b7) | May 04 2026 |
+| [Danfoss](https://www.danfoss.com/en/about-danfoss/careers/) | Electronics Engineering Intern | Tallahassee, FL, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=0683b25815b18d6d) | May 04 2026 |
+| [The University of Iowa](https://www.google.com/search?q=The+University+of+Iowa) | POSTDOCTORAL SCHOLAR | Iowa City, IA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=b7c2165d22f0c9c9) | May 04 2026 |
+| [KPMG](https://www.google.com/search?q=KPMG) | Advisory Seasonal Intern, Federal Technology Enablement - PhD Data Science/Data Engineer | McLean Summer 2026 | McLean, VA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=f8ad7cbd88277221) | May 04 2026 |
+| [ursa major](https://www.ursamajor.com/careers) | Vice President, Engineering | Boulder, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=970048bbd6378d69) | May 04 2026 |
+| [ursa major](https://www.ursamajor.com/careers) | Vice President, Engineering | Denver, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=9fb2d19a5ce64002) | May 04 2026 |
+| [ursa major](https://www.ursamajor.com/careers) | Vice President, Engineering | Fort Collins, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e458a0067bf4ab27) | May 04 2026 |
+| [iRhythm Technologies](https://www.google.com/search?q=iRhythm+Technologies) | Embedded SDET CO-Op | San Francisco, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=26ab7c2ab3a30485) | May 04 2026 |
+| [Lavner Education](https://www.google.com/search?q=Lavner+Education) | Paid STEM Instructor/Intern - Summer Position | Wellesley Hills, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4409836197) | May 02 2026 |
+| [Micron Technology](https://www.google.com/search?q=Micron+Technology) | Intern - Validation Strategy AI/ML | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408331252) | May 02 2026 |
 | [XCimer Energy](https://www.google.com/search?q=XCimer+Energy) | Senior Structural Analyst | Denver, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=0a50fe37f3656b6f) | Apr 28 2026 |
 | [AITHER](https://www.google.com/search?q=AITHER) | Industrial Design & Prototyping Intern | New York, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407505215) | Apr 28 2026 |
 | [ASUS COMPUTER INTERNATIONAL](https://www.google.com/search?q=ASUS+COMPUTER+INTERNATIONAL) | AI System Development Intern | Fremont, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=8de6031483087a47) | Apr 28 2026 |
@@ -3073,6 +3095,16 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Uber](https://www.google.com/search?q=Uber) | 2026 Fall Software Engineering Internship, US | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410257032) | May 05 2026 |
+| [Uber](https://www.google.com/search?q=Uber) | 2026 Fall Software Engineering Internship, US | Sunnyvale, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410241861) | May 05 2026 |
+| [Ormco](https://www.google.com/search?q=Ormco) | R&D Computer Scientist Intern | Brea, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410503543) | May 05 2026 |
+| [Solidigm](https://www.google.com/search?q=Solidigm) | System Modeling Engineering Intern | Rancho Cordova, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408907075) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Hardware Validation Engineer, Optimus (Fall 2026) | Palo Alto, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=43bba211481f2b46) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Software Integration Engineer, Optimus (Fall 2026) | Palo Alto, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=9a36329975a9ef4d) | May 05 2026 |
+| [Wedbush](https://www.google.com/search?q=Wedbush) | Intern, Software Engineer, Banking Automation & AI | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410289511) | May 05 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Senior Firmware Security Researcher | Bedford, MA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=c5ae31dbe6689bfc) | May 04 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Software Engineer, Data Platforms (Fall 2026) | Palo Alto, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=f992ada29943d754) | May 04 2026 |
+| [Keel](https://www.google.com/search?q=Keel) | IT Intern | Ladson, SC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408385636) | May 03 2026 |
 | [Knightscope](https://www.google.com/search?q=Knightscope) | Robotics Software Engineering Intern | Sunnyvale, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4406226499) | Apr 28 2026 |
 | [Attalon, Inc.](https://www.google.com/search?q=Attalon,+Inc.) | Intern - Electrical Engineering | Bloomfield, CT | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4406241601) | Apr 28 2026 |
 | [Nikkiso Clean Energy & Industrial Gases](https://www.google.com/search?q=Nikkiso+Clean+Energy+&+Industrial+Gases) | IT Intern | Temecula, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407497262) | Apr 28 2026 |
@@ -4871,6 +4903,10 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [NVIDIA](https://www.nvidia.com/en-us/careers/) | Formal Verification Intern - Fall 2026 | Austin, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408952022) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Hardware Validation Engineer, Optimus (Fall 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410510404) | May 05 2026 |
+| [Brilliance Cyber Systems INC](https://www.google.com/search?q=Brilliance+Cyber+Systems+INC) | Electrical / Hardware Engineer- Electrical New Product Development | Rochester, NY, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=88390e57f4fb34bd) | May 04 2026 |
+| [NVIDIA](https://www.nvidia.com/en-us/careers/) | Formal Verification Intern - Fall 2026 | Austin, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=d05aa42bae522445) | May 04 2026 |
 | [Curtiss-Wright Corporation](https://www.google.com/search?q=Curtiss-Wright+Corporation) | Engineering Intern | Newtown, PA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4405162302) | Apr 28 2026 |
 | [Sandia National Laboratories](https://www.sandia.gov/careers/) | Intern, Technical Undergraduate Year-Round - Explosive Technology Maturation & Advanced Programs, Onsite | Albuquerque, NM | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4406280178) | Apr 28 2026 |
 | [Raytheon](https://careers.rtx.com/raytheon) | 2026 Returning Intern - Onsite | McKinney, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407808957) | Apr 28 2026 |
@@ -6020,6 +6056,21 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Relativity Space](https://www.google.com/search?q=Relativity+Space) | Components Engineer Intern | Long Beach, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410276869) | May 05 2026 |
+| [H3X Technologies](https://www.google.com/search?q=H3X+Technologies) | Power Electronics Intern (Fall) | Louisville, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410203921) | May 05 2026 |
+| [Texas Instruments](https://careers.ti.com/) | Engineering Technician Intern - Dallas/Tucson | Dallas, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408917351) | May 05 2026 |
+| [Cummins Inc.](https://www.google.com/search?q=Cummins+Inc.) | Combustion and Emissions Systems Engineer | Columbus, IN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408925574) | May 05 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Facility Security Officer | Aberdeen, MD | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4404922555) | May 05 2026 |
+| [Nordson](https://www.nordson.com/en/careers) | Embedded Engineer, Senior | Minneapolis, MN, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e4bb4c6ab957230d) | May 04 2026 |
+| [Solstice Advanced Materials](https://www.google.com/search?q=Solstice+Advanced+Materials) | Intern Bachelors Chemical Eng | Geismar, LA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ac51c7670e849400) | May 04 2026 |
+| [Pairwise](https://www.google.com/search?q=Pairwise) | Senior Software Engineer, Full-stack | Irvine, CA, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=968219fcec6ce337) | May 04 2026 |
+| [Onto Innovation](https://www.google.com/search?q=Onto+Innovation) | Contractor | Tampa, FL, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=c626da6c525cdd74) | May 04 2026 |
+| [H3X Technologies](https://www.google.com/search?q=H3X+Technologies) | Power Electronics Intern (Fall) | Louisville, CO, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=d851ef7c79db1b88) | May 04 2026 |
+| [Texas Instruments](https://careers.ti.com/) | Engineering Technician Intern - Dallas/Tucson | Dallas, TX, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=d0a82a35c6a90941) | May 04 2026 |
+| [GlobalFoundries](https://www.google.com/search?q=GlobalFoundries) | Digital Manufacturing Intern (Summer 2026) | Malta, NY, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=29bdfa357fc281f9) | May 04 2026 |
+| [GlobalFoundries](https://www.google.com/search?q=GlobalFoundries) | Digital Manufacturing Intern (Summer 2026) | Malta, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408379867) | May 03 2026 |
+| [Coherent Corp.](https://www.google.com/search?q=Coherent+Corp.) | INTERN: Product Engineering, CO2 Lasers | Bloomfield, CT | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4388563435) | May 02 2026 |
+| [Coherent Corp.](https://www.google.com/search?q=Coherent+Corp.) | Intern, Equipment Engineering associate - BackGrind / CEB | Sherman, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4388559586) | May 02 2026 |
 | [Onto Innovation](https://www.google.com/search?q=Onto+Innovation) | Data Analytics Internship | Milpitas, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407524607) | Apr 28 2026 |
 | [Diamond Foundry](https://www.google.com/search?q=Diamond+Foundry) | Device Engineering Intern |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407557751) | Apr 28 2026 |
 | [Coherent Corp.](https://www.google.com/search?q=Coherent+Corp.) | Intern - Finance | Santa Clara, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4405198033) | Apr 28 2026 |
@@ -8290,6 +8341,34 @@ Current Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Compa](https://www.google.com/search?q=Compa) | Software Engineer, Intern | Denver, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410512229) | May 05 2026 |
+| [ECS (Equus Compute Solutions)](https://www.google.com/search?q=ECS+(Equus+Compute+Solutions)) | Software Engineer Intern | City of Industry, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410243088) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Software Integration Engineer, Optimus (Fall 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410514271) | May 05 2026 |
+| [Tesla](https://www.tesla.com/careers) | Internship, Fullstack Software Engineer, Machine Learning Platform, AI Infrastructure (Fall 2026) | Palo Alto, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410506471) | May 05 2026 |
+| [HireTo Co.](https://www.google.com/search?q=HireTo+Co.) | Frontend Intern (with Backend Exp) | Indiana, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410526613) | May 05 2026 |
+| [Stoke Space](https://www.google.com/search?q=Stoke+Space) | Spring 2027 Internship - Software | Kent, WA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410203767) | May 05 2026 |
+| [Ardor IT Solutions](https://www.google.com/search?q=Ardor+IT+Solutions) | Summer Intern - IT Solutions Developer | Charlotte, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410212440) | May 05 2026 |
+| [EnergyHub](https://www.google.com/search?q=EnergyHub) | Engineering Intern | Brooklyn, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408116537) | May 05 2026 |
+| [GenPark](https://www.google.com/search?q=GenPark) | Web Engineer Intern |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408989628) | May 05 2026 |
+| [Gordon Food Service](https://www.google.com/search?q=Gordon+Food+Service) | Data Engineer Internship | Atlanta, GA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408688269) | May 05 2026 |
+| [AHEAD](https://www.google.com/search?q=AHEAD) | Associate Systems Engineer | Libertyville, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408918626) | May 05 2026 |
+| [Amentum](https://www.google.com/search?q=Amentum) | Summer 2026 Intern - Model-Based Systems Engineering / Digital Systems Engineering | Houston, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410218987) | May 05 2026 |
+| [Bachem](https://www.google.com/search?q=Bachem) | Intern - Industrial Automation (Ignition / Water Systems Integration) | Torrance, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410252785) | May 05 2026 |
+| [Labcorp](https://www.google.com/search?q=Labcorp) | Lead Test Automation Engineer | Durham, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410294361) | May 05 2026 |
+| [Labcorp](https://www.google.com/search?q=Labcorp) | Lead Test Automation Engineer | North Carolina, United States | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410280678) | May 05 2026 |
+| [Toyota North America](https://www.google.com/search?q=Toyota+North+America) | Engineer - Quality | Princeton, IN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408939878) | May 05 2026 |
+| [SOLV Energy](https://www.google.com/search?q=SOLV+Energy) | HV Project Engineer (Texas) | Austin, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4388738338) | May 05 2026 |
+| [OCHIN](https://www.google.com/search?q=OCHIN) | EPIC PB CLAIMS SOLUTIONS ANALYST - CLEARINGHOUSE | Portland, OR, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=847da85acbda1359) | May 05 2026 |
+| [OCHIN](https://www.google.com/search?q=OCHIN) | EPIC CLINDOC/STORK SOLUTIONS ANALYST - MAINTENANCE | Portland, OR, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=ed937b824883e043) | May 05 2026 |
+| [OCHIN](https://www.google.com/search?q=OCHIN) | EPIC CADENCE AND PRELUDE SUPERVISOR | Portland, OR, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=9f1ba206e9bd95d6) | May 05 2026 |
+| [OCHIN](https://www.google.com/search?q=OCHIN) | EPIC CADENCE & PRELUDE SOLUTIONS ANALYST- MAINTENANCE | Portland, OR, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=37f89fbc3f3dc9d8) | May 05 2026 |
+| [Parker Hannifin](https://www.google.com/search?q=Parker+Hannifin) | Intern Quality | Madison, MS, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=cc202d04338d0b5b) | May 04 2026 |
+| [Deltek](https://www.google.com/search?q=Deltek) | Software Engineer - Intern | Herndon, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410064161) | May 04 2026 |
+| [iGov](https://www.google.com/search?q=iGov) | Software Engineer Intern | Tampa, FL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4410294728) | May 04 2026 |
+| [Trane Technologies](https://www.google.com/search?q=Trane+Technologies) | Engineering Intern | Columbia, SC, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=c8a31ba53b963f26) | May 04 2026 |
+| [Prescient Edge](https://www.google.com/search?q=Prescient+Edge) | Junior Engineer Intern | McLean, VA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4409881696) | May 03 2026 |
+| [Journify Learning](https://www.google.com/search?q=Journify+Learning) | Software Engineering Intern, Product |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408385730) | May 03 2026 |
+| [Journify Learning](https://www.google.com/search?q=Journify+Learning) | Software Engineering Intern, AI |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4408379925) | May 03 2026 |
 | [Sieve](https://www.google.com/search?q=Sieve) | Software Engineering Intern | San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4407803711) | Apr 28 2026 |
 | [PrePass](https://www.google.com/search?q=PrePass) | Software Engineer Intern | Phoenix, AZ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4406240366) | Apr 28 2026 |
 | [Fabel](https://www.google.com/search?q=Fabel) | Software Engineer Intern | Los Angeles, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4402705893) | Apr 28 2026 |
@@ -12387,4 +12466,4 @@ Current Cornell IEEE Maintenance Team:
 | [PPL Corporation](https://www.google.com/search?q=PPL+Corporation) | Electrical Engineer - Project Engineering | Louisville, KY, US | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=e0855d3f0e2c99e6) | Oct 29 2024 |
 
 ---
-_Last updated on `Apr 28, 2026`. Please verify application deadlines and availability with company websites._
+_Last updated on `May 05, 2026`. Please verify application deadlines and availability with company websites._
