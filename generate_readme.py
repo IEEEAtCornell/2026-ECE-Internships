@@ -95,6 +95,21 @@ def format_date(date_str):
         return date_str
 
 
+def job_date_key(job):
+    """Sort key: date the job was added to the list, then the posting date.
+
+    Older CSV rows have no "Date Added" column, so fall back to "Date Posted".
+    ISO dates (YYYY-MM-DD) sort correctly as strings; blanks sort last."""
+    added = job.get("Date Added") or job.get("Date Posted") or ""
+    posted = job.get("Date Posted") or added
+    return (added, posted)
+
+
+def display_date(job):
+    """The date shown in the README: real posting date, else the date found."""
+    return format_date(job.get("Date Posted") or job.get("Date Added") or "")
+
+
 def generate_markdown(jobs_by_category, metadata):
 
     global error
@@ -108,10 +123,13 @@ def generate_markdown(jobs_by_category, metadata):
 
     for category in ordered_categories:
         jobs = jobs_by_category[category]
-        
-        # Sort jobs by "Date Posted" in descending order (most recent first)
-        jobs.sort(key=lambda x: x["Date Posted"], reverse=True)
-        
+
+        # Newest first, by the date we found the job, then the posting date.
+        # The second (stable) pass keeps ties in a deterministic alphabetical
+        # order so the table doesn't reshuffle on every regeneration.
+        jobs.sort(key=lambda x: (x["Company"].lower(), x["Role"].lower()))
+        jobs.sort(key=job_date_key, reverse=True)
+
         if category not in metadata["categories"]:
             print(f"Warning: Category '{category}' not found in metadata. Skipping.")
             error = True
@@ -127,7 +145,7 @@ def generate_markdown(jobs_by_category, metadata):
             location = job["Location"]
             app_link = job["Application Link"]
             # Format the date string for display just before writing
-            date_posted = format_date(job["Date Posted"])
+            date_posted = display_date(job)
 
             if company in metadata["companies"]:
                 company_link = metadata["companies"][company]
@@ -137,7 +155,8 @@ def generate_markdown(jobs_by_category, metadata):
 
                 error = True
 
-            apply_button = f"[![Apply]({APPLY_IMAGE_OPEN})]({app_link})" if job["Open"].lower() == "true" else f"[![Closed]({APPLY_IMAGE_CLOSED})]({app_link})"
+            is_open = job.get("Open", "TRUE").strip().lower() == "true"
+            apply_button = f"[![Apply]({APPLY_IMAGE_OPEN})]({app_link})" if is_open else f"[![Closed]({APPLY_IMAGE_CLOSED})]({app_link})"
 
             markdown_output.append(f"| [{company}]({company_link}) | {role} | {location} | {apply_button} | {date_posted} |\n")
 
