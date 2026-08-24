@@ -37,7 +37,7 @@ def generate_toc(categories):
 # Generate Markdown Header with Badges
 def generate_header(total_jobs, categories):
     listings_badge = f"https://img.shields.io/badge/Total%20Listings-{total_jobs}-blue?style=flat"
-    return f"""# Summer 2026 Electrical and Computer Engineering Internships by IEEE at Cornell
+    return f"""# Summer 2027 Electrical and Computer Engineering Internships by IEEE at Cornell
 
 ![IEEE at Cornell](IEEECornellJob.png)
 
