@@ -648,4 +648,4 @@ Cornell IEEE Maintenance Team:
 | [Zipline](https://www.google.com/search?q=Zipline) | Software Engineer Intern (Summer 2027) | South San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4457524965) | Aug 21 2026 |
 
 ---
-_Last updated on `Aug 29, 2026`. Please verify application deadlines and availability with company websites._
+_Last updated on `Aug 30, 2026`. Please verify application deadlines and availability with company websites._
