@@ -14,7 +14,7 @@ Cornell IEEE Maintenance Team:
 
 **Note:** The scraper is actively being tuned to be better at finding ECE jobs. It will improve with due time!
 
-![Total Listings](https://img.shields.io/badge/Total%20Listings-2797-blue?style=flat)
+![Total Listings](https://img.shields.io/badge/Total%20Listings-2847-blue?style=flat)
 [![IEEE at Cornell](https://img.shields.io/badge/IEEE%20at%20Cornell-98cbf6?style=flat&logo=ieee&logoColor=black&link)](https://sites.coecis.cornell.edu/ieee/)
 
 
@@ -34,6 +34,16 @@ Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [General Dynamics Mission Systems](https://www.gd-ms.com/careers) | Intern Engineer - Infrastructure Hardware/Network | Pittsfield, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468498245) | Sep 21 2026 |
+| [Infineon Technologies](https://www.google.com/search?q=Infineon+Technologies) | Internship - MDL Engineer | Lexington, KY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469891340) | Sep 21 2026 |
+| [TikTok](https://www.google.com/search?q=TikTok) | Machine Learning Engineer Intern (E-Commerce Knowledge Graph) - 2027 Start (PhD) | Seattle, WA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4459783130) | Sep 21 2026 |
+| [Eaton](https://www.google.com/search?q=Eaton) | R&D Division Engineering Co-op | Greenwood, SC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4466967952) | Sep 19 2026 |
+| [TikTok USDS Joint Venture](https://www.google.com/search?q=TikTok+USDS+Joint+Venture) | Machine Learning Engineer Intern (Recommendations and Search) - 2027 Start (PhD) | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4466960029) | Sep 19 2026 |
+| [Bosch USA](https://www.google.com/search?q=Bosch+USA) | Robot Learning Engineering Intern | Pittsburgh, PA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4466932897) | Sep 18 2026 |
+| [IBM](https://www.ibm.com/careers/) | Research internship: Quantum computing and AI for partial differential equations 2027 | Yorktown Heights, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4466927522) | Sep 18 2026 |
+| [Rivian](https://www.google.com/search?q=Rivian) | Engineering Intern - Supply Chain Data, AI and Business Intelligence (Spring 2027 Co-op) | Normal, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468019657) | Sep 18 2026 |
+| [Waymo](https://waymo.com/careers/) | 2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles | Mountain View, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468021400) | Sep 18 2026 |
+| [Waymo](https://waymo.com/careers/) | 2027 Summer Intern, PhD, Product Data Science | San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468020415) | Sep 18 2026 |
 | [BehaviorAI](https://www.linkedin.com/company/behaviorai) | Machine Learning Engineering Internship — Generative Modeling |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468427071) | Sep 20 2026 |
 | [BioSpace](https://www.google.com/search?q=BioSpace) | 2027 Spring Co-op Opportunities, Cambridge, MA | Cambridge, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469589017) | Sep 20 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468088819) | Sep 20 2026 |
@@ -855,6 +865,10 @@ Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Allison Transmission](https://www.allisontransmission.com/) | Career Fair - Marian University - STEHM Career & Internship Fair |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468705337) | Sep 21 2026 |
+| [Infineon Technologies](https://www.google.com/search?q=Infineon+Technologies) | Internship - PDK Engineer | Lexington, KY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469888440) | Sep 21 2026 |
+| [U.S. Fusion Energy](https://www.linkedin.com/company/us-fusion-energy) | Summer 2027 Internship - Electrical and Pulsed Power Engineering | Energy, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467363084) | Sep 21 2026 |
+| [MIT Lincoln Laboratory](https://www.google.com/search?q=MIT+Lincoln+Laboratory) | Cyber System Exploitation Co-Op RE (Jan - June 2027) - Group 05-59 | Lexington, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469227157) | Sep 18 2026 |
 | [Etched](https://www.google.com/search?q=Etched) | RTL Intern | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4385383809) | Sep 20 2026 |
 | [Infineon Technologies](https://www.google.com/search?q=Infineon+Technologies) | Internship - Design Infrastructure | Lexington, KY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469595805) | Sep 20 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027 | Tempe, AZ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468400153) | Sep 20 2026 |
@@ -1056,6 +1070,12 @@ Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Momentive Technologies](https://www.google.com/search?q=Momentive+Technologies) | Quality Lab Co-Op | Strongsville, OH | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469886971) | Sep 21 2026 |
+| [Nordson Corporation](https://www.nordson.com/en/careers) | Electrical Engineering Intern | Minneapolis, MN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468492827) | Sep 21 2026 |
+| [Dematic](https://www.google.com/search?q=Dematic) | Controls Engineering Intern/Co-Op | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4450799371) | Sep 19 2026 |
+| [Labcorp](https://www.google.com/search?q=Labcorp) | Intern - Oncology Research and Development | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469545253) | Sep 19 2026 |
+| [National Laboratory of the Rockies](https://www.google.com/search?q=National+Laboratory+of+the+Rockies) | Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling | Golden, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468029044) | Sep 18 2026 |
+| [Texas Instruments](https://careers.ti.com/) | Portfolio Marketing Engineering Intern | Dallas, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468029063) | Sep 18 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | Santa Clara, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468088820) | Sep 20 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | Irvine, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468405076) | Sep 20 2026 |
 | [Quantinuum](https://www.google.com/search?q=Quantinuum) | Materials and Process Engineering Intern - 991 | Broomfield, CO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469550546) | Sep 20 2026 |
@@ -1509,6 +1529,10 @@ Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [Berkeley Industrial Engineering & Operations Research](https://www.google.com/search?q=Berkeley+Industrial+Engineering+&+Operations+Research) | Intern, Equity Team at PanAgora Asset Management, Inc. | Indiana | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468449620) | Sep 20 2026 |
+| [Curtiss-Wright Corporation](https://www.google.com/search?q=Curtiss-Wright+Corporation) | Co-op (Spring Term) | Pittsburgh, PA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4411529333) | Sep 20 2026 |
+| [Radeus Labs, Inc.](https://www.linkedin.com/company/radeus-labs-inc-) | Engineering Intern | Poway, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469520063) | Sep 19 2026 |
+| [Sanofi](https://www.google.com/search?q=Sanofi) | 2027 Spring Co-Op Opportunities, Morristown, NJ | Morristown, NJ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4441461279) | Sep 19 2026 |
 | [Amperesand](https://www.google.com/search?q=Amperesand) | Power Electronics Control Intern |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468436742) | Sep 19 2026 |
 | [IBM](https://www.ibm.com/careers/) | Quantum Data Analyst Intern 2027 | San Jose, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4466913036) | Sep 18 2026 |
 | [Hilltop Securities Inc.](https://www.linkedin.com/company/hilltop-securities) | Intern - Quantitative Trading | Chicago, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468030050) | Sep 19 2026 |
@@ -1667,6 +1691,32 @@ Cornell IEEE Maintenance Team:
 
 | Company | Role | Location | Application Link | Date Posted |
 |---------|------|----------|------------------|-------------|
+| [AutoZone](https://www.linkedin.com/company/autozone) | AutoZone 2027 Summer Internship – Information Technology | Memphis, TN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469904762) | Sep 21 2026 |
+| [Mercury](https://www.google.com/search?q=Mercury) | Software Engineering Intern - Spring 2027 | Portland, OR | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467358453) | Sep 21 2026 |
+| [Mercury](https://www.google.com/search?q=Mercury) | Software Engineering Intern - Spring 2027 | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467360423) | Sep 21 2026 |
+| [Signal Corps Regimental Association](https://www.linkedin.com/company/signal-corps-regimental-association) | Technology Intern - Infrastructure and IT Management | Chicago, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467364551) | Sep 21 2026 |
+| [Sub-Zero Group, Inc.](https://www.linkedin.com/company/sub-zero-group-inc-) | 2027 Information & Technology Co-op | Madison, WI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4459747730) | Sep 21 2026 |
+| [U.S. Fusion Energy](https://www.linkedin.com/company/us-fusion-energy) | Summer 2027 Internship - Computational and Software Engineering | Energy, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467360106) | Sep 21 2026 |
+| [Universal Scientific Industrial Co., Ltd.](https://tw.linkedin.com/company/universal-scientific-industrial-co.) | IT Intern | Milpitas, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4396153923) | Sep 21 2026 |
+| [Upbound Group](https://www.linkedin.com/company/upboundgroup) | Software Engineer Intern | Draper, UT | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467398712) | Sep 21 2026 |
+| [WebstaurantStore](https://www.linkedin.com/company/webstaurantstore-com) | 2027 Full Stack Development Summer Internship | Lititz, PA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467604777) | Sep 21 2026 |
+| [Wellmark Blue Cross and Blue Shield](https://www.google.com/search?q=Wellmark+Blue+Cross+and+Blue+Shield) | Software Engineer Internship - Technology Healthcare Innovation | Des Moines, IA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467625325) | Sep 21 2026 |
+| [Epic Games](https://www.linkedin.com/company/epic-games) | Tools Programmer Intern | Cary, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468051519) | Sep 19 2026 |
+| [General Atomics](https://www.google.com/search?q=General+Atomics) | Intern - Information Technology Systems | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469540378) | Sep 19 2026 |
+| [Labcorp](https://www.google.com/search?q=Labcorp) | Intern - IT Operations | Indianapolis, IN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469539448) | Sep 19 2026 |
+| [PGTEK](https://www.linkedin.com/company/pgtek) | IT Internship - Nutanix - DOD SkillBridge-eligible applicants only | Washington, DC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469561125) | Sep 19 2026 |
+| [Allianz Technology](https://de.linkedin.com/company/allianz-technology) | Summer Intern - 2027 | Minneapolis, MN | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468005948) | Sep 18 2026 |
+| [Axiom Space](https://www.google.com/search?q=Axiom+Space) | Software Engineering Intern (Spring 2027) | Houston, TX | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4467851919) | Sep 18 2026 |
+| [BMO U.S.](https://www.google.com/search?q=BMO+U.S.) | Software Developer, Winter 2027 (Internship) - 4 months | San Ramon, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469246361) | Sep 18 2026 |
+| [CME Group](https://www.linkedin.com/company/cme-group) | Software Engineering Internship - Summer 2027 | Chicago, IL | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469202278) | Sep 18 2026 |
+| [Commerce Bank](https://www.linkedin.com/company/commerce_bank) | Intern - IT (Summer 2027) | Kansas City, MO | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4460170063) | Sep 18 2026 |
+| [Gemini](https://www.google.com/search?q=Gemini) | Software Engineering Intern (Winter 2027) | New York, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468005939) | Sep 18 2026 |
+| [IBM](https://www.ibm.com/careers/) | IBM System Test SW Developer Intern - Poughkeepsie, NY - 2027 | Poughkeepsie, AR | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4458018585) | Sep 18 2026 |
+| [McKesson](https://www.google.com/search?q=McKesson) | CMM Technology Intern - Summer 2027 | Columbus, OH | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469192336) | Sep 18 2026 |
+| [MegazoneCloud US](https://www.linkedin.com/company/megazonecloud-us) | Cloud Operations Co-op 2027 | Rochester, NY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468036132) | Sep 18 2026 |
+| [MITRE](https://www.google.com/search?q=MITRE) | Software Systems Engineering Intern | Bellevue, NE | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4469273022) | Sep 18 2026 |
+| [Orrick, Herrington & Sutcliffe LLP](https://www.linkedin.com/company/orrick) | IT Applications Deployment Intern | Wheeling, WV | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4418867910) | Sep 18 2026 |
+| [TELUS Digital](https://www.google.com/search?q=TELUS+Digital) | Software Engineering Intern (US) - Summer 2027 | Durham, NC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4458671079) | Sep 18 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | IT Infrastructure & Cloud Engineering Internship – Summer 2027 | San Diego, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468404088) | Sep 20 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | Software Engineering Internship - Summer 2027 | Boxborough, MA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468403144) | Sep 20 2026 |
 | [Qualcomm](https://www.google.com/search?q=Qualcomm) | Software Engineering Internship - Summer 2027 | Louisville, KY | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4468084970) | Sep 20 2026 |
@@ -2859,4 +2909,4 @@ GASTON, SC | Gaston, SC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?st
 | [Zipline](https://www.google.com/search?q=Zipline) | Software Engineer Intern (Summer 2027) | South San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4457524965) | Aug 21 2026 |
 
 ---
-_Last updated on `Sep 20, 2026`. Please verify application deadlines and availability with company websites._
+_Last updated on `Sep 21, 2026`. Please verify application deadlines and availability with company websites._
