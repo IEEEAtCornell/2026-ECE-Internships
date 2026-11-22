@@ -2006,7 +2006,7 @@ Cornell IEEE Maintenance Team:
 | [Schaeffler](https://www.google.com/search?q=Schaeffler) | Co-Op - Verification & Validation (XIL / V&V) R&D - 2027 | Auburn Hills, MI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4485620544) | Oct 31 2026 |
 | [General Motors (GM)](https://www.google.com/search?q=General+Motors+(GM)) | 2027 Summer Intern – Research and Development - Power Electronics & Energy Conversion Systems | Pontiac, MI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.indeed.com/viewjob?jk=593e9ed30fed075e) | Oct 30 2026 |
 | [Consumers Energy](https://www.google.com/search?q=Consumers+Energy) | Intern/Co-Op-UX Designer | Michigan | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4479935907) | Oct 29 2026 |
-| [Realta Fusion](https://www.linkedin.com/company/realta-fusion) | Engineering Internship | Madison, WI | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4484563942) | Oct 29 2026 |
+| [Realta Fusion](https://www.linkedin.com/company/realta-fusion) | Engineering Internship | Madison, WI | [![Closed](https://img.shields.io/badge/Closed-e22c5a?style=flat)](https://www.linkedin.com/jobs/view/4484563942) | Oct 29 2026 |
 | [Rockwell Automation](https://www.google.com/search?q=Rockwell+Automation) | Co-op, Hardware Development Engineering (June - December 2027) | Cleveland, OH | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4484540393) | Oct 29 2026 |
 | [BAE Systems, Inc.](https://www.google.com/search?q=BAE+Systems,+Inc.) | Electrical Engineering Internship Summer 2027 | Wayne, NJ | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4482552006) | Oct 28 2026 |
 | [Draper](https://www.google.com/search?q=Draper) | Analog ASIC Design Intern (Summer 2027) |  | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4483892325) | Oct 28 2026 |
@@ -6242,4 +6242,4 @@ GASTON, SC | Gaston, SC | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?st
 | [Zipline](https://www.google.com/search?q=Zipline) | Software Engineer Intern (Summer 2027) | South San Francisco, CA | [![Apply](https://img.shields.io/badge/Apply-2cb5e2?style=flat)](https://www.linkedin.com/jobs/view/4457524965) | Aug 21 2026 |
 
 ---
-_Last updated on `Nov 15, 2026`. Please verify application deadlines and availability with company websites._
+_Last updated on `Nov 22, 2026`. Please verify application deadlines and availability with company websites._
